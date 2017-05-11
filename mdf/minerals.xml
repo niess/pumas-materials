@@ -1,0 +1,60 @@
+<!-- Compilation of some common minerals.
+
+     Mass fractions according to PDG:
+     http://pdg.lbl.gov/2016/AtomicNuclearProperties/index.html.
+  -->
+<pumas>
+        <!-- List of atomic elements. -->
+        <element name="Carbon" Z="6" A="12.0108" I="78.0"/>
+        <element name="Oxygen" Z="8" A="15.9994" I="95.0"/>
+        <element name="Fluorine" Z="9" A="18.9984" I="115.0"/>
+        <element name="Sodium" Z="11" A="22.9898" I="149.0"/>
+        <element name="Aluminium" Z="13" A="26.9815" I="166.0"/>
+        <element name="Silicon" Z="14" A="28.0855" I="173.0"/>
+        <element name="Sulfur" Z="16" A="32.0655" I="180.0"/>
+        <element name="Chlorine" Z="17" A="35.4532" I="174.0"/>
+        <element name="Calcium" Z="20" A="40.0784" I="191.0"/>
+        <element name="Iron" Z="26" A="55.8452" I="286.0"/>
+
+        <!-- Halides. -->
+        <material name="Fluorite" file="calcium-fluoride.txt">
+                <component name="Fluorine" fraction="0.486659"/>
+                <component name="Calcium" fraction="0.513341"/>
+        </material>
+
+        <material name="Halite" file="sodium-chloride.txt">
+                <component name="Sodium" fraction="0.393375"/>
+                <component name="Chlorine" fraction="0.606626"/>
+        </material>
+
+        <!-- Oxydes. -->
+        <material name="Corundum" file="aluminium-oxide.txt">
+                <component name="Oxygen" fraction="0.470749"/>
+                <component name="Aluminium" fraction="0.529251"/>
+        </material>
+
+        <material name="Hematite" file="ferric-oxide.txt">
+                <component name="Oxygen" fraction="0.300567"/>
+                <component name="Iron" fraction="0.699433"/>
+        </material>
+
+        <!-- Carbonates. -->
+        <material name="Calcite" file="calcium-carbonate.txt">
+                <component name="Carbon" fraction="0.120003"/>
+                <component name="Oxygen" fraction="0.479554"/>
+                <component name="Calcium" fraction="0.400443"/>
+        </material>
+
+        <!-- Sulfates. -->
+        <material name="Anhydrite" file="calcium-sulfate.txt">
+                <component name="Oxygen" fraction="0.470095"/>
+                <component name="Sulfur" fraction="0.235497"/>
+                <component name="Calcium" fraction="0.294408"/>
+        </material>
+
+        <!-- Silicates. -->
+        <material name="Quartz" file="silicon-dioxide.txt">
+                <component name="Oxygen" fraction="0.532565"/>
+                <component name="Silicon" fraction="0.467435"/>
+        </material>
+</pumas>
