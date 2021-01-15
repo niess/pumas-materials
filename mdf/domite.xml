@@ -9,30 +9,30 @@
         <element name="Silicon" Z="14" A="28.0855" I="173.0"/>
         <element name="Iron" Z="26" A="55.8452" I="286.0"/>
 
-        <material name="Water" file="water.txt">
+        <material name="Water" file="water.txt" density="1.0">
                 <component name="Hydrogen" fraction="0.111894"/>
                 <component name="Oxygen" fraction="0.888106"/>
         </material>
 
-        <material name="Corundum" file="aluminium-oxide.txt">
+        <material name="Corundum" file="aluminium-oxide.txt" density="3.970">
                 <component name="Oxygen" fraction="0.470749"/>
                 <component name="Aluminium" fraction="0.529251"/>
         </material>
 
         <material name="Quartz" file="silicon-dioxide.txt">
-                <component name="Oxygen" fraction="0.532565"/>
+                <component name="Oxygen" fraction="0.532565" density="2.200"/>
                 <component name="Silicon" fraction="0.467435"/>
         </material>
 
-        <material name="Hematite" file="ferric-oxide.txt">
+        <material name="Hematite" file="ferric-oxide.txt" density="5.200">
                 <component name="Oxygen" fraction="0.300567"/>
                 <component name="Iron" fraction="0.699433"/>
         </material>
 
         <composite name="Domite">
-                <component name="Quartz" fraction="0.6722" density="2.200"/>
-                <component name="Corundum" fraction="0.1694" density="3.970"/>
-                <component name="Hematite" fraction="0.0286" density="5.200"/>
-                <component name="Water" fraction="0.0" density="1.0"/>
+                <component name="Quartz" fraction="0.6722"/>
+                <component name="Corundum" fraction="0.1694"/>
+                <component name="Hematite" fraction="0.0286"/>
+                <component name="Water" fraction="0.0"/>
         </composite>
 </pumas>
