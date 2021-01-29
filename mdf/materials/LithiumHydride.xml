@@ -1,0 +1,9 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="Li" Z="3"  A="6.942000"  I="40.0"  />
+
+  <material name="LithiumHydride" file="lithium_hydride.txt" density="0.82">
+    <component name="Li" fraction="0.873203" />
+    <component name="H"  fraction="0.126797" />
+  </material>
+</pumas>

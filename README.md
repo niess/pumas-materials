@@ -19,20 +19,23 @@ library. It is divided into two components.
     composition.
 
 
-* Energy loss tabulations are provided in the [dedx](dedx) directory, for
-  each basic material. These tabulations have been generated with the
-  `pumas-tabulate` executable. For muons, one can also use the whole set of
-  tabulations provided online by the [PDG](http://pdg.lbl.gov/2016/AtomicNuclearProperties/index.html).
-  Note however that those are slightly less accurate than PUMAS ones, above
+* Energy loss tabulations are provided in the [dedx](dedx) directory, for each
+  basic material. These tabulations have been generated with the
+  [`luajit-pumas`](https://github.com/niess/pumas-luajit) executable. For muons,
+  one can also use the whole set of tabulations provided online by the
+  [PDG](https://pdg.lbl.gov/2020/AtomicNuclearProperties/index.html).  Note
+  however that those are slightly less accurate than PUMAS ones, above
   100 TeV.
 
 ## Usage
 
-A standard initialisation of PUMAS requires to specify a MDF file and a
+A standard physics initialisation of PUMAS requires to provide a MDF file and a
 directory where the energy loss tabulations are read from. This can be done
 by providing explicits paths, e.g.:
 ```c
-pumas_initialise(PUMAS_PARTICLE_MUON, "mdf/standard.xml", "dedx/muon", NULL);
+struct pumas_physics * physics;
+pumas_physics_create(
+    &physics, PUMAS_PARTICLE_MUON, "mdf/examples/standard.xml", "dedx/muon");
 ```
 or by setting one or both of the `PUMAS_MDF` and `PUMAS_DEDX` environment
 variables.

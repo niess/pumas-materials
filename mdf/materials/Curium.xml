@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Cm" Z="96" A="247.070000" I="939.0" />
+
+  <material name="Curium" file="curium.txt" density="13.51">
+    <component name="Cm" fraction="1" />
+  </material>
+</pumas>

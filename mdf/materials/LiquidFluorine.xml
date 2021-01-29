@@ -1,0 +1,7 @@
+<pumas>
+  <element name="F" Z="9"  A="18.998400" I="115.0" />
+
+  <material name="LiquidFluorine" file="liquid_fluorine.txt" density="1.507">
+    <component name="F" fraction="1" />
+  </material>
+</pumas>

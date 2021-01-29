@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Lu" Z="71" A="174.967000" I="694.0" />
+
+  <material name="Lutetium" file="lutetium.txt" density="9.841">
+    <component name="Lu" fraction="1" />
+  </material>
+</pumas>

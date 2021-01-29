@@ -1,0 +1,23 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="B"  Z="5"  A="10.817000" I="76.0"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+  <element name="Al" Z="13" A="26.981500" I="166.0" />
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+
+  <material name="G10" file="g_10.txt" density="1.8">
+    <component name="O"  fraction="0.385764" />
+    <component name="H"  fraction="0.275853" />
+    <component name="Si" fraction="0.151423" />
+    <component name="Ca" fraction="0.081496" />
+    <component name="Al" fraction="0.044453" />
+    <component name="N"  fraction="0.027945" />
+    <component name="B"  fraction="0.01864" />
+    <component name="Mg" fraction="0.010842" />
+    <component name="C"  fraction="0.003583" />
+  </material>
+</pumas>

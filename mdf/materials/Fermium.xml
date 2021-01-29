@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Fm" Z="100" A="257.095000" I="994.0" />
+
+  <material name="Fermium" file="fermium.txt" density="14">
+    <component name="Fm" fraction="1" />
+  </material>
+</pumas>

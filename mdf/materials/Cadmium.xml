@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Cd" Z="48" A="112.414000" I="469.0" />
+
+  <material name="Cadmium" file="cadmium.txt" density="8.65">
+    <component name="Cd" fraction="1" />
+  </material>
+</pumas>

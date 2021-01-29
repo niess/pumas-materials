@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+
+  <material name="ChlorineGas" file="chlorine_gas.txt" density="0.00298">
+    <component name="Cl" fraction="1" />
+  </material>
+</pumas>

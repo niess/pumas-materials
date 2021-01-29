@@ -1,0 +1,9 @@
+<pumas>
+  <element name="Be" Z="4"  A="9.012180"  I="63.7"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="BerylliumOxide" file="beryllium_oxide.txt" density="3.01">
+    <component name="O"  fraction="0.63968" />
+    <component name="Be" fraction="0.36032" />
+  </material>
+</pumas>

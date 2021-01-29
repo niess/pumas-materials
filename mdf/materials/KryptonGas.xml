@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Kr" Z="36" A="83.798200" I="352.0" />
+
+  <material name="KryptonGas" file="krypton_gas.txt" density="0.003486">
+    <component name="Kr" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,11 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Gd" Z="64" A="157.253000" I="591.0" />
+
+  <material name="GadoliniumOxysulfide" file="gadolinium_oxysulfide.txt" density="7.44">
+    <component name="Gd" fraction="0.830782" />
+    <component name="S"  fraction="0.08469" />
+    <component name="O"  fraction="0.084528" />
+  </material>
+</pumas>

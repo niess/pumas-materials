@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+
+  <material name="Silicon" file="silicon.txt" density="2.329">
+    <component name="Si" fraction="1" />
+  </material>
+</pumas>

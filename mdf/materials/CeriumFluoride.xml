@@ -1,0 +1,9 @@
+<pumas>
+  <element name="F"  Z="9"  A="18.998400" I="115.0" />
+  <element name="Ce" Z="58" A="140.116000" I="523.0" />
+
+  <material name="CeriumFluoride" file="cerium_fluoride.txt" density="6.16">
+    <component name="Ce" fraction="0.710847" />
+    <component name="F"  fraction="0.289153" />
+  </material>
+</pumas>

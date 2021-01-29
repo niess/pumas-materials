@@ -1,0 +1,9 @@
+<pumas>
+  <element name="Cd" Z="48" A="112.414000" I="469.0" />
+  <element name="Te" Z="52" A="127.603000" I="485.0" />
+
+  <material name="CadmiumTelluride" file="cadmium_telluride.txt" density="6.2">
+    <component name="Te" fraction="0.531645" />
+    <component name="Cd" fraction="0.468355" />
+  </material>
+</pumas>

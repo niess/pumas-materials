@@ -1,0 +1,9 @@
+<pumas>
+  <element name="I"  Z="53" A="126.904000" I="491.0" />
+  <element name="Hg" Z="80" A="200.592000" I="800.0" />
+
+  <material name="MercuricIodide" file="mercuric_iodide.txt" density="6.36">
+    <component name="I"  fraction="0.55856" />
+    <component name="Hg" fraction="0.44144" />
+  </material>
+</pumas>

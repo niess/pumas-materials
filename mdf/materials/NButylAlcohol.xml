@@ -1,0 +1,11 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="NButylAlcohol" file="n_butyl_alcohol.txt" density="0.8098">
+    <component name="C" fraction="0.648171" />
+    <component name="O" fraction="0.215851" />
+    <component name="H" fraction="0.135978" />
+  </material>
+</pumas>

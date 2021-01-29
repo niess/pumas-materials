@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Br" Z="35" A="79.904100" I="357.0" />
+
+  <material name="LiquidBromine" file="liquid_bromine.txt" density="3.103">
+    <component name="Br" fraction="1" />
+  </material>
+</pumas>

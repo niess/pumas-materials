@@ -1,0 +1,11 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+  <element name="Bi" Z="83" A="208.980000" I="823.0" />
+
+  <material name="BismuthSilicate" file="bismuth_silicate.txt" density="7.12">
+    <component name="Bi" fraction="0.751613" />
+    <component name="O"  fraction="0.172629" />
+    <component name="Si" fraction="0.075759" />
+  </material>
+</pumas>

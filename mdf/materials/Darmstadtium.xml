@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ds" Z="110" A="281.165000" I="1129.0" />
+
+  <material name="Darmstadtium" file="darmstadtium.txt" density="14">
+    <component name="Ds" fraction="1" />
+  </material>
+</pumas>

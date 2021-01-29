@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Th" Z="90" A="232.038000" I="847.0" />
+
+  <material name="Thorium" file="thorium.txt" density="11.72">
+    <component name="Th" fraction="1" />
+  </material>
+</pumas>

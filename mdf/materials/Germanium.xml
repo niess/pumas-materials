@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ge" Z="32" A="72.630100" I="350.0" />
+
+  <material name="Germanium" file="germanium.txt" density="5.323">
+    <component name="Ge" fraction="1" />
+  </material>
+</pumas>

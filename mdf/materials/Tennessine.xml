@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ts" Z="117" A="294.211000" I="1227.0" />
+
+  <material name="Tennessine" file="tennessine.txt" density="14">
+    <component name="Ts" fraction="1" />
+  </material>
+</pumas>

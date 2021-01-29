@@ -1,0 +1,7 @@
+<pumas>
+  <element name="In" Z="49" A="114.818000" I="488.0" />
+
+  <material name="Indium" file="indium.txt" density="7.31">
+    <component name="In" fraction="1" />
+  </material>
+</pumas>

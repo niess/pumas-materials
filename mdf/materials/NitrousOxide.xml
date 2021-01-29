@@ -1,0 +1,9 @@
+<pumas>
+  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="NitrousOxide" file="nitrous_oxide.txt" density="0.001831">
+    <component name="N" fraction="0.636483" />
+    <component name="O" fraction="0.363517" />
+  </material>
+</pumas>

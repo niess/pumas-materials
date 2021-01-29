@@ -1,0 +1,23 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+  <element name="P"  Z="15" A="30.973800" I="173.0" />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+  <element name="Zn" Z="30" A="65.382000" I="330.0" />
+
+  <material name="CorticalBone" file="cortical_bone.txt" density="1.85">
+    <component name="O"  fraction="0.446096" />
+    <component name="Ca" fraction="0.20993" />
+    <component name="C"  fraction="0.14433" />
+    <component name="P"  fraction="0.10497" />
+    <component name="H"  fraction="0.047234" />
+    <component name="N"  fraction="0.04199" />
+    <component name="S"  fraction="0.00315" />
+    <component name="Mg" fraction="0.0022" />
+    <component name="Zn" fraction="0.0001" />
+  </material>
+</pumas>

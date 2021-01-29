@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Eu" Z="63" A="151.964000" I="580.0" />
+
+  <material name="Europium" file="europium.txt" density="5.244">
+    <component name="Eu" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,11 @@
+<pumas>
+  <element name="Li" Z="3"  A="6.942000"  I="40.0"  />
+  <element name="B"  Z="5"  A="10.817000" I="76.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="LithiumTetraborate" file="lithium_tetraborate.txt" density="2.44">
+    <component name="O"  fraction="0.662235" />
+    <component name="B"  fraction="0.25568" />
+    <component name="Li" fraction="0.082085" />
+  </material>
+</pumas>

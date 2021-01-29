@@ -1,0 +1,9 @@
+<pumas>
+  <element name="F" Z="9"  A="18.998400" I="115.0" />
+  <element name="W" Z="74" A="183.841000" I="727.0" />
+
+  <material name="TungstenHexafluoride" file="tungsten_hexafluoride.txt" density="2.4">
+    <component name="W" fraction="0.617277" />
+    <component name="F" fraction="0.382723" />
+  </material>
+</pumas>

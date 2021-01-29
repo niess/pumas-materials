@@ -1,0 +1,11 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="F" Z="9"  A="18.998400" I="115.0" />
+
+  <material name="VitonFluoroelastomer" file="viton_fluoroelastomer.txt" density="1.8">
+    <component name="F" fraction="0.710028" />
+    <component name="C" fraction="0.280555" />
+    <component name="H" fraction="0.009417" />
+  </material>
+</pumas>

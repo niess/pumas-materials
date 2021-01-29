@@ -1,0 +1,9 @@
+<pumas>
+  <element name="Ag" Z="47" A="107.868000" I="470.0" />
+  <element name="I"  Z="53" A="126.904000" I="491.0" />
+
+  <material name="SilverIodide" file="silver_iodide.txt" density="6.01">
+    <component name="I"  fraction="0.540542" />
+    <component name="Ag" fraction="0.459458" />
+  </material>
+</pumas>

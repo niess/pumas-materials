@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Rn" Z="86" A="222.018000" I="794.0" />
+
+  <material name="Radon" file="radon.txt" density="0.009066">
+    <component name="Rn" fraction="1" />
+  </material>
+</pumas>

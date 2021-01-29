@@ -1,0 +1,17 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+
+  <material name="Ms20TissueSubstitute" file="ms_20_tissue_substitute.txt" density="1">
+    <component name="C"  fraction="0.583442" />
+    <component name="O"  fraction="0.186381" />
+    <component name="Mg" fraction="0.130287" />
+    <component name="H"  fraction="0.081192" />
+    <component name="N"  fraction="0.017798" />
+    <component name="Cl" fraction="0.0009" />
+  </material>
+</pumas>

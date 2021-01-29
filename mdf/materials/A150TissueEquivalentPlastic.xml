@@ -1,0 +1,17 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="F"  Z="9"  A="18.998400" I="115.0" />
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+
+  <material name="A150TissueEquivalentPlastic" file="a_150_tissue_equivalent_plastic.txt" density="1.127">
+    <component name="C"  fraction="0.775501" />
+    <component name="H"  fraction="0.101327" />
+    <component name="O"  fraction="0.052316" />
+    <component name="N"  fraction="0.035057" />
+    <component name="Ca" fraction="0.018378" />
+    <component name="F"  fraction="0.017422" />
+  </material>
+</pumas>

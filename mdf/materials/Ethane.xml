@@ -1,0 +1,9 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+
+  <material name="Ethane" file="ethane.txt" density="0.001263">
+    <component name="C" fraction="0.798885" />
+    <component name="H" fraction="0.201115" />
+  </material>
+</pumas>

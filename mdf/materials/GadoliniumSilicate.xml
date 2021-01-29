@@ -1,0 +1,11 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+  <element name="Gd" Z="64" A="157.253000" I="591.0" />
+
+  <material name="GadoliniumSilicate" file="gadolinium_silicate.txt" density="6.71">
+    <component name="Gd" fraction="0.744233" />
+    <component name="O"  fraction="0.189305" />
+    <component name="Si" fraction="0.066462" />
+  </material>
+</pumas>

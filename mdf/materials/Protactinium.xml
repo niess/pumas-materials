@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Pa" Z="91" A="231.036000" I="878.0" />
+
+  <material name="Protactinium" file="protactinium.txt" density="15.37">
+    <component name="Pa" fraction="1" />
+  </material>
+</pumas>

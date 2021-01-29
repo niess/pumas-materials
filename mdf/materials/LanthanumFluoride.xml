@@ -1,0 +1,9 @@
+<pumas>
+  <element name="F"  Z="9"  A="18.998400" I="115.0" />
+  <element name="La" Z="57" A="138.905000" I="501.0" />
+
+  <material name="LanthanumFluoride" file="lanthanum_fluoride.txt" density="5.9">
+    <component name="La" fraction="0.709061" />
+    <component name="F"  fraction="0.290939" />
+  </material>
+</pumas>

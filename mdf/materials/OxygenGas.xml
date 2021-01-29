@@ -1,0 +1,7 @@
+<pumas>
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="OxygenGas" file="oxygen_gas.txt" density="0.001332">
+    <component name="O" fraction="1" />
+  </material>
+</pumas>

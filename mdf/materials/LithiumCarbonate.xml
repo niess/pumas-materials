@@ -1,0 +1,11 @@
+<pumas>
+  <element name="Li" Z="3"  A="6.942000"  I="40.0"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="LithiumCarbonate" file="lithium_carbonate.txt" density="2.11">
+    <component name="O"  fraction="0.649579" />
+    <component name="Li" fraction="0.187871" />
+    <component name="C"  fraction="0.16255" />
+  </material>
+</pumas>

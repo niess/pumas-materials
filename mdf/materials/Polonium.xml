@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Po" Z="84" A="208.982000" I="830.0" />
+
+  <material name="Polonium" file="polonium.txt" density="9.32">
+    <component name="Po" fraction="1" />
+  </material>
+</pumas>

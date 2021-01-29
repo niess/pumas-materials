@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Pb" Z="82" A="207.210000" I="823.0" />
+
+  <material name="Lead" file="lead.txt" density="11.35">
+    <component name="Pb" fraction="1" />
+  </material>
+</pumas>

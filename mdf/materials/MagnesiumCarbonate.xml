@@ -1,0 +1,11 @@
+<pumas>
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+
+  <material name="MagnesiumCarbonate" file="magnesium_carbonate.txt" density="2.958">
+    <component name="O"  fraction="0.569278" />
+    <component name="Mg" fraction="0.288267" />
+    <component name="C"  fraction="0.142455" />
+  </material>
+</pumas>

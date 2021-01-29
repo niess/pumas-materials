@@ -1,0 +1,7 @@
+<pumas>
+  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+
+  <material name="LiquidNitrogen" file="liquid_nitrogen.txt" density="0.807">
+    <component name="N" fraction="1" />
+  </material>
+</pumas>

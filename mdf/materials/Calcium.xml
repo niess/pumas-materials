@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+
+  <material name="Calcium" file="calcium.txt" density="1.55">
+    <component name="Ca" fraction="1" />
+  </material>
+</pumas>

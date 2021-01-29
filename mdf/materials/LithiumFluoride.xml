@@ -1,0 +1,9 @@
+<pumas>
+  <element name="Li" Z="3"  A="6.942000"  I="40.0"  />
+  <element name="F"  Z="9"  A="18.998400" I="115.0" />
+
+  <material name="LithiumFluoride" file="lithium_fluoride.txt" density="2.635">
+    <component name="F"  fraction="0.732415" />
+    <component name="Li" fraction="0.267585" />
+  </material>
+</pumas>

@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Pt" Z="78" A="195.085000" I="790.0" />
+
+  <material name="Platinum" file="platinum.txt" density="21.45">
+    <component name="Pt" fraction="1" />
+  </material>
+</pumas>

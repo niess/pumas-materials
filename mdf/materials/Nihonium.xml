@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Nh" Z="113" A="286.182000" I="1171.0" />
+
+  <material name="Nihonium" file="nihonium.txt" density="14">
+    <component name="Nh" fraction="1" />
+  </material>
+</pumas>

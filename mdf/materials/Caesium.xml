@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Cs" Z="55" A="132.905000" I="488.0" />
+
+  <material name="Caesium" file="caesium.txt" density="1.873">
+    <component name="Cs" fraction="1" />
+  </material>
+</pumas>

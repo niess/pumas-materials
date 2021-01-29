@@ -1,0 +1,7 @@
+<pumas>
+  <element name="At" Z="85" A="209.987000" I="825.0" />
+
+  <material name="Astatine" file="astatine.txt" density="14">
+    <component name="At" fraction="1" />
+  </material>
+</pumas>

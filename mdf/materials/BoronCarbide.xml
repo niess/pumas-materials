@@ -1,0 +1,9 @@
+<pumas>
+  <element name="B" Z="5"  A="10.817000" I="76.0"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+
+  <material name="BoronCarbide" file="boron_carbide.txt" density="2.52">
+    <component name="B" fraction="0.78261" />
+    <component name="C" fraction="0.21739" />
+  </material>
+</pumas>

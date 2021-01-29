@@ -1,0 +1,9 @@
+<pumas>
+  <element name="D" Z="1"  A="2.014100"  I="19.2"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="DeuteriumOxideLiquid" file="deuterium_oxide_liquid.txt" density="1.107">
+    <component name="O" fraction="0.798867" />
+    <component name="D" fraction="0.201133" />
+  </material>
+</pumas>

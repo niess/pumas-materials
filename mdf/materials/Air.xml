@@ -1,0 +1,13 @@
+<pumas>
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Ar" Z="18" A="39.948100" I="188.0" />
+
+  <material name="Air" file="air.txt" density="0.001205">
+    <component name="N"  fraction="0.755267" />
+    <component name="O"  fraction="0.231781" />
+    <component name="Ar" fraction="0.012827" />
+    <component name="C"  fraction="0.000124" />
+  </material>
+</pumas>

@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Es" Z="99" A="252.083000" I="980.0" />
+
+  <material name="Einsteinium" file="einsteinium.txt" density="14">
+    <component name="Es" fraction="1" />
+  </material>
+</pumas>

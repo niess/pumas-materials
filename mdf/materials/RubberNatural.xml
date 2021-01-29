@@ -1,0 +1,9 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+
+  <material name="RubberNatural" file="rubber_natural.txt" density="0.92">
+    <component name="C" fraction="0.881629" />
+    <component name="H" fraction="0.118371" />
+  </material>
+</pumas>

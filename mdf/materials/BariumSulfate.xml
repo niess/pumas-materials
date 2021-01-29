@@ -1,0 +1,11 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Ba" Z="56" A="137.328000" I="491.0" />
+
+  <material name="BariumSulfate" file="barium_sulfate.txt" density="4.5">
+    <component name="Ba" fraction="0.58842" />
+    <component name="O"  fraction="0.274212" />
+    <component name="S"  fraction="0.137368" />
+  </material>
+</pumas>

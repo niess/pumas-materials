@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+
+  <material name="Magnesium" file="magnesium.txt" density="1.74">
+    <component name="Mg" fraction="1" />
+  </material>
+</pumas>

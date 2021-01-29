@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Md" Z="101" A="258.098000" I="1007.0" />
+
+  <material name="Mendelevium" file="mendelevium.txt" density="14">
+    <component name="Md" fraction="1" />
+  </material>
+</pumas>

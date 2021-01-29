@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Cf" Z="98" A="251.080000" I="966.0" />
+
+  <material name="Californium" file="californium.txt" density="15.1">
+    <component name="Cf" fraction="1" />
+  </material>
+</pumas>

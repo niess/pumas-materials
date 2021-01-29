@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ra" Z="88" A="226.025000" I="826.0" />
+
+  <material name="Radium" file="radium.txt" density="5">
+    <component name="Ra" fraction="1" />
+  </material>
+</pumas>

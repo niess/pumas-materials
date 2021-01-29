@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ce" Z="58" A="140.116000" I="523.0" />
+
+  <material name="Cerium" file="cerium.txt" density="6.77">
+    <component name="Ce" fraction="1" />
+  </material>
+</pumas>

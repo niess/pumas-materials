@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Hg" Z="80" A="200.592000" I="800.0" />
+
+  <material name="Mercury" file="mercury.txt" density="13.55">
+    <component name="Hg" fraction="1" />
+  </material>
+</pumas>

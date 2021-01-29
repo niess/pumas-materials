@@ -1,0 +1,13 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+
+  <material name="GypsumPlasterOfParis" file="gypsum_plaster_of_paris.txt" density="2.32">
+    <component name="O"  fraction="0.557572" />
+    <component name="Ca" fraction="0.232797" />
+    <component name="S"  fraction="0.186215" />
+    <component name="H"  fraction="0.023416" />
+  </material>
+</pumas>

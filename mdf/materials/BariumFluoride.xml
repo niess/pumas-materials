@@ -1,0 +1,9 @@
+<pumas>
+  <element name="F"  Z="9"  A="18.998400" I="115.0" />
+  <element name="Ba" Z="56" A="137.328000" I="491.0" />
+
+  <material name="BariumFluoride" file="barium_fluoride.txt" density="4.893">
+    <component name="Ba" fraction="0.78328" />
+    <component name="F"  fraction="0.21672" />
+  </material>
+</pumas>

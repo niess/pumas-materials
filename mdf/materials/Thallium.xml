@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Tl" Z="81" A="204.382000" I="810.0" />
+
+  <material name="Thallium" file="thallium.txt" density="11.72">
+    <component name="Tl" fraction="1" />
+  </material>
+</pumas>

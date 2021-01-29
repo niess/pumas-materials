@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Tb" Z="65" A="158.925000" I="614.0" />
+
+  <material name="Terbium" file="terbium.txt" density="8.23">
+    <component name="Tb" fraction="1" />
+  </material>
+</pumas>

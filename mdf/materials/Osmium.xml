@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Os" Z="76" A="190.233000" I="746.0" />
+
+  <material name="Osmium" file="osmium.txt" density="22.57">
+    <component name="Os" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Xe" Z="54" A="131.294000" I="482.0" />
+
+  <material name="LiquidXenon" file="liquid_xenon.txt" density="2.953">
+    <component name="Xe" fraction="1" />
+  </material>
+</pumas>

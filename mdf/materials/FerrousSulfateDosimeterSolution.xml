@@ -1,0 +1,19 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Na" Z="11" A="22.989800" I="149.0" />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="Fe" Z="26" A="55.845200" I="286.0" />
+
+  <material name="FerrousSulfateDosimeterSolution" file="ferrous_sulfate_dosimeter_solution.txt" density="1.024">
+    <component name="O"  fraction="0.878636" />
+    <component name="H"  fraction="0.108259" />
+    <component name="S"  fraction="0.012968" />
+    <component name="Fe" fraction="5.4e-05" />
+    <component name="Cl" fraction="3.4e-05" />
+    <component name="N"  fraction="2.7e-05" />
+    <component name="Na" fraction="2.2e-05" />
+  </material>
+</pumas>

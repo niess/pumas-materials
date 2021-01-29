@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Nb" Z="41" A="92.906400" I="417.0" />
+
+  <material name="Niobium" file="niobium.txt" density="8.57">
+    <component name="Nb" fraction="1" />
+  </material>
+</pumas>

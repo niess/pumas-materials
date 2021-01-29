@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Bk" Z="97" A="247.070000" I="952.0" />
+
+  <material name="Berkelium" file="berkelium.txt" density="9.86">
+    <component name="Bk" fraction="1" />
+  </material>
+</pumas>

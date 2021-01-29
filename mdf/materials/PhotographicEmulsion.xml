@@ -1,0 +1,21 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Br" Z="35" A="79.904100" I="357.0" />
+  <element name="Ag" Z="47" A="107.868000" I="470.0" />
+  <element name="I"  Z="53" A="126.904000" I="491.0" />
+
+  <material name="PhotographicEmulsion" file="photographic_emulsion.txt" density="3.815">
+    <component name="Ag" fraction="0.474105" />
+    <component name="Br" fraction="0.349103" />
+    <component name="C"  fraction="0.072261" />
+    <component name="O"  fraction="0.066101" />
+    <component name="N"  fraction="0.01932" />
+    <component name="H"  fraction="0.0141" />
+    <component name="I"  fraction="0.00312" />
+    <component name="S"  fraction="0.00189" />
+  </material>
+</pumas>

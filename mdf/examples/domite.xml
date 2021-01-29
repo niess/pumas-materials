@@ -1,0 +1,43 @@
+<!--Domite, i.e. a trachyte specific to the chaîne des Puys, France.
+    Note: a water fraction can be included. By default the rock is dry.
+  -->
+<pumas>
+  <!-- Atomic elements -->
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Al" Z="13" A="26.981500" I="166.0" />
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+  <element name="Fe" Z="26" A="55.845200" I="286.0" />
+
+  <!-- Corundum mineral (sapphire, Al2O3) -->
+  <material name="Corundum" file="aluminum_oxide_sapphire.txt" density="3.97">
+    <component name="Al" fraction="0.529251" />
+    <component name="O"  fraction="0.470749" />
+  </material>
+
+  <!-- Hematite mineral (Fe2O3) -->
+  <material name="Hematite" file="ferric_oxide.txt" density="5.2">
+    <component name="Fe" fraction="0.699433" />
+    <component name="O"  fraction="0.300567" />
+  </material>
+
+  <!-- Quartz mineral (SiO2) -->
+  <material name="Quartz" file="silicon_dioxide.txt" density="2.2">
+    <component name="O"  fraction="0.532565" />
+    <component name="Si" fraction="0.467435" />
+  </material>
+
+  <!-- Liquid water -->
+  <material name="Water" file="water.txt" density="1">
+    <component name="O" fraction="0.888106" />
+    <component name="H" fraction="0.111894" />
+  </material>
+
+  <!-- Domite rock -->
+  <composite name="Domite">
+    <component name="Quartz"   fraction="0.6722" />
+    <component name="Corundum" fraction="0.1694" />
+    <component name="Hematite" fraction="0.0286" />
+    <component name="Water"    fraction="0"      />
+  </composite>
+</pumas>

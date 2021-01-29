@@ -1,0 +1,11 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+
+  <material name="CalciumSulfate" file="calcium_sulfate.txt" density="2.96">
+    <component name="O"  fraction="0.470095" />
+    <component name="Ca" fraction="0.294408" />
+    <component name="S"  fraction="0.235497" />
+  </material>
+</pumas>

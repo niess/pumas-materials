@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Yb" Z="70" A="173.054000" I="684.0" />
+
+  <material name="Ytterbium" file="ytterbium.txt" density="6.903">
+    <component name="Yb" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,9 @@
+<pumas>
+  <element name="K" Z="19" A="39.098300" I="190.0" />
+  <element name="I" Z="53" A="126.904000" I="491.0" />
+
+  <material name="PotassiumIodide" file="potassium_iodide.txt" density="3.13">
+    <component name="I" fraction="0.764472" />
+    <component name="K" fraction="0.235528" />
+  </material>
+</pumas>

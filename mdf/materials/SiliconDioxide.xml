@@ -1,0 +1,9 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+
+  <material name="SiliconDioxide" file="silicon_dioxide.txt" density="2.2">
+    <component name="O"  fraction="0.532565" />
+    <component name="Si" fraction="0.467435" />
+  </material>
+</pumas>

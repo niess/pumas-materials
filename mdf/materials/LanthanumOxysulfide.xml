@@ -1,0 +1,11 @@
+<pumas>
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="La" Z="57" A="138.905000" I="501.0" />
+
+  <material name="LanthanumOxysulfide" file="lanthanum_oxysulfide.txt" density="5.86">
+    <component name="La" fraction="0.812622" />
+    <component name="S"  fraction="0.093778" />
+    <component name="O"  fraction="0.0936" />
+  </material>
+</pumas>

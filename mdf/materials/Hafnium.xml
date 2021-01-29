@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Hf" Z="72" A="178.492000" I="705.0" />
+
+  <material name="Hafnium" file="hafnium.txt" density="13.31">
+    <component name="Hf" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Og" Z="118" A="294.214000" I="1242.0" />
+
+  <material name="Oganesson" file="oganesson.txt" density="0.012">
+    <component name="Og" fraction="1" />
+  </material>
+</pumas>

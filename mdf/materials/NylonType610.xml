@@ -1,0 +1,13 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="NylonType610" file="nylon_type_610.txt" density="1.14">
+    <component name="C" fraction="0.680449" />
+    <component name="O" fraction="0.1133" />
+    <component name="H" fraction="0.107062" />
+    <component name="N" fraction="0.099189" />
+  </material>
+</pumas>

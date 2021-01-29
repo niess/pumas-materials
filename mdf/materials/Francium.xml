@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Fr" Z="87" A="223.020000" I="827.0" />
+
+  <material name="Francium" file="francium.txt" density="1.87">
+    <component name="Fr" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,9 @@
+<pumas>
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="K" Z="19" A="39.098300" I="190.0" />
+
+  <material name="PotassiumOxide" file="potassium_oxide.txt" density="2.32">
+    <component name="K" fraction="0.830148" />
+    <component name="O" fraction="0.169852" />
+  </material>
+</pumas>

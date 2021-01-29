@@ -1,0 +1,9 @@
+<pumas>
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="U" Z="92" A="238.029000" I="890.0" />
+
+  <material name="UraniumOxide" file="uranium_oxide.txt" density="10.96">
+    <component name="U" fraction="0.881498" />
+    <component name="O" fraction="0.118502" />
+  </material>
+</pumas>

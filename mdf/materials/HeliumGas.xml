@@ -1,0 +1,7 @@
+<pumas>
+  <element name="He" Z="2"  A="4.002600"  I="41.8"  />
+
+  <material name="HeliumGas" file="helium_gas.txt" density="0.0001663">
+    <component name="He" fraction="1" />
+  </material>
+</pumas>

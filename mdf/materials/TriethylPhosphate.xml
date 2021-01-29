@@ -1,0 +1,13 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="P" Z="15" A="30.973800" I="173.0" />
+
+  <material name="TriethylPhosphate" file="triethyl_phosphate.txt" density="1.07">
+    <component name="C" fraction="0.395628" />
+    <component name="O" fraction="0.351334" />
+    <component name="P" fraction="0.17004" />
+    <component name="H" fraction="0.082998" />
+  </material>
+</pumas>

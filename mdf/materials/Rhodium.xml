@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Rh" Z="45" A="102.906000" I="449.0" />
+
+  <material name="Rhodium" file="rhodium.txt" density="12.41">
+    <component name="Rh" fraction="1" />
+  </material>
+</pumas>

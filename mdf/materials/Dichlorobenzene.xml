@@ -1,0 +1,11 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+
+  <material name="Dichlorobenzene" file="dichlorobenzene.txt" density="1.305">
+    <component name="C"  fraction="0.490233" />
+    <component name="Cl" fraction="0.482342" />
+    <component name="H"  fraction="0.027425" />
+  </material>
+</pumas>

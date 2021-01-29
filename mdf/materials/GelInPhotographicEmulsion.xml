@@ -1,0 +1,15 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="S" Z="16" A="32.065500" I="180.0" />
+
+  <material name="GelInPhotographicEmulsion" file="gel_in_photographic_emulsion.txt" density="1.291">
+    <component name="C" fraction="0.41606" />
+    <component name="O" fraction="0.38064" />
+    <component name="N" fraction="0.11124" />
+    <component name="H" fraction="0.08118" />
+    <component name="S" fraction="0.01088" />
+  </material>
+</pumas>

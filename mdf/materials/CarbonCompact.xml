@@ -1,0 +1,7 @@
+<pumas>
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+
+  <material name="CarbonCompact" file="carbon_compact.txt" density="2.265">
+    <component name="C" fraction="1" />
+  </material>
+</pumas>

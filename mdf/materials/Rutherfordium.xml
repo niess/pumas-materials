@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Rf" Z="104" A="267.122000" I="1047.0" />
+
+  <material name="Rutherfordium" file="rutherfordium.txt" density="14">
+    <component name="Rf" fraction="1" />
+  </material>
+</pumas>

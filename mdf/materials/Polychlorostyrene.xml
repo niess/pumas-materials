@@ -1,0 +1,11 @@
+<pumas>
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+
+  <material name="Polychlorostyrene" file="polychlorostyrene.txt" density="1.3">
+    <component name="C"  fraction="0.696325" />
+    <component name="Cl" fraction="0.241806" />
+    <component name="H"  fraction="0.061869" />
+  </material>
+</pumas>

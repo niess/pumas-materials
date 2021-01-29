@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Co" Z="27" A="58.933200" I="297.0" />
+
+  <material name="Cobalt" file="cobalt.txt" density="8.9">
+    <component name="Co" fraction="1" />
+  </material>
+</pumas>

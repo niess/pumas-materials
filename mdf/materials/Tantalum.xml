@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ta" Z="73" A="180.948000" I="718.0" />
+
+  <material name="Tantalum" file="tantalum.txt" density="16.65">
+    <component name="Ta" fraction="1" />
+  </material>
+</pumas>

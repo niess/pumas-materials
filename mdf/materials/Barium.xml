@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ba" Z="56" A="137.328000" I="491.0" />
+
+  <material name="Barium" file="barium.txt" density="3.5">
+    <component name="Ba" fraction="1" />
+  </material>
+</pumas>

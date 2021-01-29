@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Ne" Z="10" A="20.179800" I="137.0" />
+
+  <material name="LiquidNeon" file="liquid_neon.txt" density="1.204">
+    <component name="Ne" fraction="1" />
+  </material>
+</pumas>

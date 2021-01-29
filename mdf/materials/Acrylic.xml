@@ -1,0 +1,11 @@
+<pumas>
+  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="Acrylic" file="acrylic.txt" density="1.19">
+    <component name="C" fraction="0.599848" />
+    <component name="O" fraction="0.319614" />
+    <component name="H" fraction="0.080538" />
+  </material>
+</pumas>

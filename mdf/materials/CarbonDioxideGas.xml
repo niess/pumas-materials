@@ -1,0 +1,9 @@
+<pumas>
+  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+
+  <material name="CarbonDioxideGas" file="carbon_dioxide_gas.txt" density="0.001842">
+    <component name="O" fraction="0.727084" />
+    <component name="C" fraction="0.272916" />
+  </material>
+</pumas>

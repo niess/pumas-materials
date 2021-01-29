@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Re" Z="75" A="186.207000" I="736.0" />
+
+  <material name="Rhenium" file="rhenium.txt" density="21.02">
+    <component name="Re" fraction="1" />
+  </material>
+</pumas>

@@ -1,0 +1,63 @@
+<!-- Compilation of some common minerals
+
+  Mass fractions according to the PDG:
+  https://pdg.lbl.gov/2020/AtomicNuclearProperties/index.html.
+  -->
+<pumas>
+  <!-- Atomic elements -->
+  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
+  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
+  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="F"  Z="9"  A="18.998400" I="115.0" />
+  <element name="Na" Z="11" A="22.989800" I="149.0" />
+  <element name="Al" Z="13" A="26.981500" I="166.0" />
+  <element name="Si" Z="14" A="28.085500" I="173.0" />
+  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+  <element name="Fe" Z="26" A="55.845200" I="286.0" />
+
+  <!-- Anhydrite mineral (CaSO4) -->
+  <material name="Anhydrite" file="calcium_sulfate.txt" density="2.96">
+    <component name="O"  fraction="0.470095" />
+    <component name="Ca" fraction="0.294408" />
+    <component name="S"  fraction="0.235497" />
+  </material>
+
+  <!-- Calcite mineral (CaCO3) -->
+  <material name="Calcite" file="calcium_carbonate.txt" density="2.8">
+    <component name="O"  fraction="0.479554" />
+    <component name="Ca" fraction="0.400443" />
+    <component name="C"  fraction="0.120003" />
+  </material>
+
+  <!-- Corundum mineral (sapphire, Al2O3) -->
+  <material name="Corundum" file="aluminum_oxide_sapphire.txt" density="3.97">
+    <component name="Al" fraction="0.529251" />
+    <component name="O"  fraction="0.470749" />
+  </material>
+
+  <!-- Fluorite mineral (CaF2) -->
+  <material name="Fluorite" file="calcium_fluoride.txt" density="3.18">
+    <component name="Ca" fraction="0.513341" />
+    <component name="F"  fraction="0.486659" />
+  </material>
+
+  <!-- Halite mineral (NaCl) -->
+  <material name="Halite" file="sodium_chloride.txt" density="2.17">
+    <component name="Cl" fraction="0.606626" />
+    <component name="Na" fraction="0.393375" />
+  </material>
+
+  <!-- Hematite mineral (Fe2O3) -->
+  <material name="Hematite" file="ferric_oxide.txt" density="5.2">
+    <component name="Fe" fraction="0.699433" />
+    <component name="O"  fraction="0.300567" />
+  </material>
+
+  <!-- Quartz mineral (SiO2) -->
+  <material name="Quartz" file="silicon_dioxide.txt" density="2.2">
+    <component name="O"  fraction="0.532565" />
+    <component name="Si" fraction="0.467435" />
+  </material>
+</pumas>

@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Kr" Z="36" A="83.798200" I="352.0" />
+
+  <material name="LiquidKrypton" file="liquid_krypton.txt" density="2.418">
+    <component name="Kr" fraction="1" />
+  </material>
+</pumas>

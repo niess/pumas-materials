@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Rg" Z="111" A="282.169000" I="1143.0" />
+
+  <material name="Roentgenium" file="roentgenium.txt" density="14">
+    <component name="Rg" fraction="1" />
+  </material>
+</pumas>

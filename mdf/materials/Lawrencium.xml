@@ -1,0 +1,7 @@
+<pumas>
+  <element name="Lr" Z="103" A="262.110000" I="1034.0" />
+
+  <material name="Lawrencium" file="lawrencium.txt" density="14">
+    <component name="Lr" fraction="1" />
+  </material>
+</pumas>
