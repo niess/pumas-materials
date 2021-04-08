@@ -18,7 +18,7 @@
   <!-- Liquid water
        Ref: https://pdg.lbl.gov/2020/AtomicNuclearProperties/HTML/water_liquid.html
     -->
-  <material name="Water" file="water.txt" density="1">
+  <material name="Water" file="water.txt" density="1" I="79.7">
     <component name="O" fraction="0.888106" />
     <component name="H" fraction="0.111894" />
   </material>
