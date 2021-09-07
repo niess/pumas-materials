@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="PVC" file="p_v_c.txt" density="1.3">
-    <component name="Cl" fraction="0.56726" />
-    <component name="C"  fraction="0.38436" />
+  <material name="PVC" file="pvc.txt" density="1.3" I="108.2">
     <component name="H"  fraction="0.04838" />
+    <component name="C"  fraction="0.38436" />
+    <component name="Cl" fraction="0.56726" />
   </material>
 </pumas>

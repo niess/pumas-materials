@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="Dichloroethane" file="dichloroethane.txt" density="1.235">
-    <component name="Cl" fraction="0.716515" />
-    <component name="C"  fraction="0.242746" />
+  <material name="Dichloroethane" file="dichloroethane.txt" density="1.235" I="111.9">
     <component name="H"  fraction="0.04074" />
+    <component name="C"  fraction="0.242746" />
+    <component name="Cl" fraction="0.716515" />
   </material>
 </pumas>

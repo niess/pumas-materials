@@ -1,7 +1,7 @@
 <pumas>
   <element name="D" Z="1"  A="2.014100"  I="19.2"  />
 
-  <material name="DeuteriumGas" file="deuterium_gas.txt" density="0.0001677">
+  <material name="DeuteriumGas" file="deuterium_gas.txt" density="0.0001677" I="19.2">
     <component name="D" fraction="1" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="Hs" Z="108" A="269.134000" I="1102.0" />
 
-  <material name="Hassium" file="hassium.txt" density="14">
+  <material name="Hassium" file="hassium.txt" density="14" I="1102">
     <component name="Hs" fraction="1" />
   </material>
 </pumas>

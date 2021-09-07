@@ -1,7 +1,7 @@
 <pumas>
   <element name="Ir" Z="77" A="192.217000" I="757.0" />
 
-  <material name="Iridium" file="iridium.txt" density="22.42">
+  <material name="Iridium" file="iridium.txt" density="22.42" I="757">
     <component name="Ir" fraction="1" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="La" Z="57" A="138.905000" I="501.0" />
 
-  <material name="Lanthanum" file="lanthanum.txt" density="6.145">
+  <material name="Lanthanum" file="lanthanum.txt" density="6.145" I="501">
     <component name="La" fraction="1" />
   </material>
 </pumas>

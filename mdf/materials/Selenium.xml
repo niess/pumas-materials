@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Se" Z="34" A="78.971800" I="348.0" />
+  <element name="Se" Z="34" A="78.971000" I="348.0" />
 
-  <material name="Selenium" file="selenium.txt" density="4.5">
+  <material name="Selenium" file="selenium.txt" density="4.5" I="348">
     <component name="Se" fraction="1" />
   </material>
 </pumas>

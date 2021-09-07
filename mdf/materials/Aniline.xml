@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
-  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
+  <element name="N" Z="7"  A="14.007000" I="82.0"  />
 
-  <material name="Aniline" file="aniline.txt" density="1.023">
+  <material name="Aniline" file="aniline.txt" density="1.023" I="66.2">
+    <component name="H" fraction="0.075759" />
     <component name="C" fraction="0.773838" />
     <component name="N" fraction="0.150403" />
-    <component name="H" fraction="0.075759" />
   </material>
 </pumas>

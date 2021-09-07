@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
   <element name="F" Z="9"  A="18.998400" I="115.0" />
 
-  <material name="PolyvinylideneFluoride" file="polyvinylidene_fluoride.txt" density="1.76">
-    <component name="F" fraction="0.593379" />
-    <component name="C" fraction="0.375141" />
+  <material name="PolyvinylideneFluoride" file="polyvinylidene_fluoride.txt" density="1.76" I="88.8">
     <component name="H" fraction="0.03148" />
+    <component name="C" fraction="0.375141" />
+    <component name="F" fraction="0.593379" />
   </material>
 </pumas>

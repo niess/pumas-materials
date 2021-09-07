@@ -1,9 +1,9 @@
 <pumas>
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
-  <element name="Tl" Z="81" A="204.382000" I="810.0" />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
+  <element name="Tl" Z="81" A="204.380000" I="810.0" />
 
-  <material name="ThalliumChloride" file="thallium_chloride.txt" density="7.004">
-    <component name="Tl" fraction="0.852187" />
+  <material name="ThalliumChloride" file="thallium_chloride.txt" density="7.004" I="690.3">
     <component name="Cl" fraction="0.147822" />
+    <component name="Tl" fraction="0.852187" />
   </material>
 </pumas>

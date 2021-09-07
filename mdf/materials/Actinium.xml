@@ -1,7 +1,7 @@
 <pumas>
   <element name="Ac" Z="89" A="227.028000" I="841.0" />
 
-  <material name="Actinium" file="actinium.txt" density="10.07">
+  <material name="Actinium" file="actinium.txt" density="10.07" I="841">
     <component name="Ac" fraction="1" />
   </material>
 </pumas>

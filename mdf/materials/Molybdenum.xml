@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Mo" Z="42" A="95.951000" I="424.0" />
+  <element name="Mo" Z="42" A="95.950000" I="424.0" />
 
-  <material name="Molybdenum" file="molybdenum.txt" density="10.22">
+  <material name="Molybdenum" file="molybdenum.txt" density="10.22" I="424">
     <component name="Mo" fraction="1" />
   </material>
 </pumas>

@@ -2,8 +2,8 @@
   <element name="I"  Z="53" A="126.904000" I="491.0" />
   <element name="Cs" Z="55" A="132.905000" I="488.0" />
 
-  <material name="CesiumIodide" file="cesium_iodide.txt" density="4.51">
-    <component name="Cs" fraction="0.511549" />
+  <material name="CesiumIodide" file="cesium_iodide.txt" density="4.51" I="553.1">
     <component name="I"  fraction="0.488451" />
+    <component name="Cs" fraction="0.511549" />
   </material>
 </pumas>

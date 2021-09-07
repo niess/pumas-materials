@@ -1,7 +1,7 @@
 <pumas>
   <element name="Cn" Z="112" A="285.177000" I="1156.0" />
 
-  <material name="Copernicium" file="copernicium.txt" density="14">
+  <material name="Copernicium" file="copernicium.txt" density="14" I="1156">
     <component name="Cn" fraction="1" />
   </material>
 </pumas>

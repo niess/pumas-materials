@@ -2,8 +2,8 @@
   <element name="F"  Z="9"  A="18.998400" I="115.0" />
   <element name="Cs" Z="55" A="132.905000" I="488.0" />
 
-  <material name="CesiumFluoride" file="cesium_fluoride.txt" density="4.115">
-    <component name="Cs" fraction="0.874931" />
+  <material name="CesiumFluoride" file="cesium_fluoride.txt" density="4.115" I="440.7">
     <component name="F"  fraction="0.125069" />
+    <component name="Cs" fraction="0.874931" />
   </material>
 </pumas>

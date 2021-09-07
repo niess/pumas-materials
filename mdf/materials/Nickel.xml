@@ -1,7 +1,7 @@
 <pumas>
   <element name="Ni" Z="28" A="58.693400" I="311.0" />
 
-  <material name="Nickel" file="nickel.txt" density="8.902">
+  <material name="Nickel" file="nickel.txt" density="8.902" I="311">
     <component name="Ni" fraction="1" />
   </material>
 </pumas>

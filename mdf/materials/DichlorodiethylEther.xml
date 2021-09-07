@@ -1,13 +1,13 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="DichlorodiethylEther" file="dichlorodiethyl_ether.txt" density="1.22">
-    <component name="Cl" fraction="0.495802" />
+  <material name="DichlorodiethylEther" file="dichlorodiethyl_ether.txt" density="1.22" I="103.3">
+    <component name="H"  fraction="0.056381" />
     <component name="C"  fraction="0.335942" />
     <component name="O"  fraction="0.111874" />
-    <component name="H"  fraction="0.056381" />
+    <component name="Cl" fraction="0.495802" />
   </material>
 </pumas>

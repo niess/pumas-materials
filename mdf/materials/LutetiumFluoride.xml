@@ -2,8 +2,8 @@
   <element name="F"  Z="9"  A="18.998400" I="115.0" />
   <element name="Lu" Z="71" A="174.967000" I="694.0" />
 
-  <material name="LutetiumFluoride" file="lutetium_fluoride.txt" density="8.3">
-    <component name="Lu" fraction="0.754291" />
+  <material name="LutetiumFluoride" file="lutetium_fluoride.txt" density="8.3" I="458.7">
     <component name="F"  fraction="0.245709" />
+    <component name="Lu" fraction="0.754291" />
   </material>
 </pumas>

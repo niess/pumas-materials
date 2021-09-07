@@ -1,7 +1,7 @@
 <pumas>
   <element name="Pr" Z="59" A="140.908000" I="535.0" />
 
-  <material name="Praseodymium" file="praseodymium.txt" density="6.773">
+  <material name="Praseodymium" file="praseodymium.txt" density="6.773" I="535">
     <component name="Pr" fraction="1" />
   </material>
 </pumas>

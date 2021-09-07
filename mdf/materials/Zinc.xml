@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Zn" Z="30" A="65.382000" I="330.0" />
+  <element name="Zn" Z="30" A="65.380000" I="330.0" />
 
-  <material name="Zinc" file="zinc.txt" density="7.133">
+  <material name="Zinc" file="zinc.txt" density="7.133" I="330">
     <component name="Zn" fraction="1" />
   </material>
 </pumas>

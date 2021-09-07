@@ -1,9 +1,9 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
 
-  <material name="NHeptane" file="n_heptane.txt" density="0.6838">
-    <component name="C" fraction="0.839063" />
+  <material name="NHeptane" file="n_heptane.txt" density="0.6838" I="54.4">
     <component name="H" fraction="0.160937" />
+    <component name="C" fraction="0.839063" />
   </material>
 </pumas>

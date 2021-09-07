@@ -1,9 +1,9 @@
 <pumas>
-  <element name="Ga" Z="31" A="69.723100" I="334.0" />
+  <element name="Ga" Z="31" A="69.723000" I="334.0" />
   <element name="As" Z="33" A="74.921600" I="347.0" />
 
-  <material name="GalliumArsenide" file="gallium_arsenide.txt" density="5.31">
-    <component name="As" fraction="0.517981" />
+  <material name="GalliumArsenide" file="gallium_arsenide.txt" density="5.31" I="384.9">
     <component name="Ga" fraction="0.482019" />
+    <component name="As" fraction="0.517981" />
   </material>
 </pumas>

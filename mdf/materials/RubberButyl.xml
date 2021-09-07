@@ -1,9 +1,9 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
 
-  <material name="RubberButyl" file="rubber_butyl.txt" density="0.92">
-    <component name="C" fraction="0.856289" />
+  <material name="RubberButyl" file="rubber_butyl.txt" density="0.92" I="56.5">
     <component name="H" fraction="0.143711" />
+    <component name="C" fraction="0.856289" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Cr" Z="24" A="51.996200" I="257.0" />
+  <element name="Cr" Z="24" A="51.996100" I="257.0" />
 
-  <material name="Chromium" file="chromium.txt" density="7.18">
+  <material name="Chromium" file="chromium.txt" density="7.18" I="257">
     <component name="Cr" fraction="1" />
   </material>
 </pumas>

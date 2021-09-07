@@ -1,7 +1,7 @@
 <pumas>
   <element name="As" Z="33" A="74.921600" I="347.0" />
 
-  <material name="Arsenic" file="arsenic.txt" density="5.73">
+  <material name="Arsenic" file="arsenic.txt" density="5.73" I="347">
     <component name="As" fraction="1" />
   </material>
 </pumas>

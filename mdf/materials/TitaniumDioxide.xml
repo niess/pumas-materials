@@ -1,9 +1,9 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Ti" Z="22" A="47.867100" I="233.0" />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Ti" Z="22" A="47.867000" I="233.0" />
 
-  <material name="TitaniumDioxide" file="titanium_dioxide.txt" density="4.26">
-    <component name="Ti" fraction="0.599408" />
+  <material name="TitaniumDioxide" file="titanium_dioxide.txt" density="4.26" I="179.5">
     <component name="O"  fraction="0.400592" />
+    <component name="Ti" fraction="0.599408" />
   </material>
 </pumas>

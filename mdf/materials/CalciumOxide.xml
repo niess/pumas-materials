@@ -1,9 +1,9 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Ca" Z="20" A="40.078000" I="191.0" />
 
-  <material name="CalciumOxide" file="calcium_oxide.txt" density="3.3">
-    <component name="Ca" fraction="0.714701" />
+  <material name="CalciumOxide" file="calcium_oxide.txt" density="3.3" I="176.1">
     <component name="O"  fraction="0.285299" />
+    <component name="Ca" fraction="0.714701" />
   </material>
 </pumas>

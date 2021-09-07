@@ -1,7 +1,7 @@
 <pumas>
   <element name="Db" Z="105" A="268.126000" I="1061.0" />
 
-  <material name="Dubnium" file="dubnium.txt" density="14">
+  <material name="Dubnium" file="dubnium.txt" density="14" I="1061">
     <component name="Db" fraction="1" />
   </material>
 </pumas>

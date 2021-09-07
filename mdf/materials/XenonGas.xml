@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Xe" Z="54" A="131.294000" I="482.0" />
+  <element name="Xe" Z="54" A="131.293000" I="482.0" />
 
-  <material name="XenonGas" file="xenon_gas.txt" density="0.005483">
+  <material name="XenonGas" file="xenon_gas.txt" density="0.005483" I="482">
     <component name="Xe" fraction="1" />
   </material>
 </pumas>

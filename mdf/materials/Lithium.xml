@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Li" Z="3"  A="6.942000"  I="40.0"  />
+  <element name="Li" Z="3"  A="6.940000"  I="40.0"  />
 
-  <material name="Lithium" file="lithium.txt" density="0.534">
+  <material name="Lithium" file="lithium.txt" density="0.534" I="40">
     <component name="Li" fraction="1" />
   </material>
 </pumas>

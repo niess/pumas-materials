@@ -1,7 +1,7 @@
 <pumas>
   <element name="Au" Z="79" A="196.967000" I="790.0" />
 
-  <material name="Gold" file="gold.txt" density="19.32">
+  <material name="Gold" file="gold.txt" density="19.32" I="790">
     <component name="Au" fraction="1" />
   </material>
 </pumas>

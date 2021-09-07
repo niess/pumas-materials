@@ -1,11 +1,11 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Al" Z="13" A="26.981500" I="166.0" />
   <element name="Y"  Z="39" A="88.905800" I="379.0" />
 
-  <material name="YttriumAluminumOxide1" file="yttrium_aluminum_oxide_1.txt" density="5.5">
-    <component name="Y"  fraction="0.542487" />
+  <material name="YttriumAluminumOxide1" file="yttrium_aluminum_oxide1.txt" density="5.5" I="239.3">
     <component name="O"  fraction="0.292876" />
     <component name="Al" fraction="0.164636" />
+    <component name="Y"  fraction="0.542487" />
   </material>
 </pumas>

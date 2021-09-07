@@ -1,7 +1,7 @@
 <pumas>
   <element name="Pm" Z="61" A="144.913000" I="560.0" />
 
-  <material name="Promethium" file="promethium.txt" density="7.264">
+  <material name="Promethium" file="promethium.txt" density="7.264" I="560">
     <component name="Pm" fraction="1" />
   </material>
 </pumas>

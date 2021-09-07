@@ -1,7 +1,7 @@
 <pumas>
-  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+  <element name="N" Z="7"  A="14.007000" I="82.0"  />
 
-  <material name="NitrogenGas" file="nitrogen_gas.txt" density="0.001165">
+  <material name="NitrogenGas" file="nitrogen_gas.txt" density="0.001165" I="82">
     <component name="N" fraction="1" />
   </material>
 </pumas>

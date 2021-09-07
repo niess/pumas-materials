@@ -1,11 +1,11 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Br" Z="35" A="79.904100" I="357.0" />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Br" Z="35" A="79.904000" I="357.0" />
   <element name="La" Z="57" A="138.905000" I="501.0" />
 
-  <material name="LanthanumOxybromide" file="lanthanum_oxybromide.txt" density="6.28">
-    <component name="La" fraction="0.591568" />
-    <component name="Br" fraction="0.340294" />
+  <material name="LanthanumOxybromide" file="lanthanum_oxybromide.txt" density="6.28" I="439.7">
     <component name="O"  fraction="0.068138" />
+    <component name="Br" fraction="0.340294" />
+    <component name="La" fraction="0.591568" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="K" Z="19" A="39.098300" I="190.0" />
 
-  <material name="Potassium" file="potassium.txt" density="0.862">
+  <material name="Potassium" file="potassium.txt" density="0.862" I="190">
     <component name="K" fraction="1" />
   </material>
 </pumas>

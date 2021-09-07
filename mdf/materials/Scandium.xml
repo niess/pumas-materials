@@ -1,7 +1,7 @@
 <pumas>
   <element name="Sc" Z="21" A="44.955900" I="216.0" />
 
-  <material name="Scandium" file="scandium.txt" density="2.989">
+  <material name="Scandium" file="scandium.txt" density="2.989" I="216">
     <component name="Sc" fraction="1" />
   </material>
 </pumas>

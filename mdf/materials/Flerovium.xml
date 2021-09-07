@@ -1,7 +1,7 @@
 <pumas>
   <element name="Fl" Z="114" A="289.190000" I="1185.0" />
 
-  <material name="Flerovium" file="flerovium.txt" density="14">
+  <material name="Flerovium" file="flerovium.txt" density="14" I="1185">
     <component name="Fl" fraction="1" />
   </material>
 </pumas>

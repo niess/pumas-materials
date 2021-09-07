@@ -1,7 +1,7 @@
 <pumas>
   <element name="Mt" Z="109" A="278.156000" I="1115.0" />
 
-  <material name="Meitnerium" file="meitnerium.txt" density="14">
+  <material name="Meitnerium" file="meitnerium.txt" density="14" I="1115">
     <component name="Mt" fraction="1" />
   </material>
 </pumas>

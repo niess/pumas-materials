@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Ne" Z="10" A="20.179800" I="137.0" />
+  <element name="Ne" Z="10" A="20.179700" I="137.0" />
 
-  <material name="NeonGas" file="neon_gas.txt" density="0.0008385">
+  <material name="NeonGas" file="neon_gas.txt" density="0.0008385" I="137">
     <component name="Ne" fraction="1" />
   </material>
 </pumas>

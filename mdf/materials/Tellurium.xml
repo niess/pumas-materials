@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Te" Z="52" A="127.603000" I="485.0" />
+  <element name="Te" Z="52" A="127.600000" I="485.0" />
 
-  <material name="Tellurium" file="tellurium.txt" density="6.24">
+  <material name="Tellurium" file="tellurium.txt" density="6.24" I="485">
     <component name="Te" fraction="1" />
   </material>
 </pumas>

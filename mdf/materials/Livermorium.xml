@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Lv" Z="116" A="293.205000" I="1213.0" />
+  <element name="Lv" Z="116" A="293.204000" I="1213.0" />
 
-  <material name="Livermorium" file="livermorium.txt" density="14">
+  <material name="Livermorium" file="livermorium.txt" density="14" I="1213">
     <component name="Lv" fraction="1" />
   </material>
 </pumas>

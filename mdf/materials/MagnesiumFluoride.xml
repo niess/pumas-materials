@@ -1,8 +1,8 @@
 <pumas>
   <element name="F"  Z="9"  A="18.998400" I="115.0" />
-  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+  <element name="Mg" Z="12" A="24.305000" I="156.0" />
 
-  <material name="MagnesiumFluoride" file="magnesium_fluoride.txt" density="3">
+  <material name="MagnesiumFluoride" file="magnesium_fluoride.txt" density="3" I="134.3">
     <component name="F"  fraction="0.609883" />
     <component name="Mg" fraction="0.390117" />
   </material>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="Bh" Z="107" A="270.133000" I="1087.0" />
 
-  <material name="Bohrium" file="bohrium.txt" density="14">
+  <material name="Bohrium" file="bohrium.txt" density="14" I="1087">
     <component name="Bh" fraction="1" />
   </material>
 </pumas>

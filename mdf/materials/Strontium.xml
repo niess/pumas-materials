@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Sr" Z="38" A="87.621000" I="366.0" />
+  <element name="Sr" Z="38" A="87.620000" I="366.0" />
 
-  <material name="Strontium" file="strontium.txt" density="2.54">
+  <material name="Strontium" file="strontium.txt" density="2.54" I="366">
     <component name="Sr" fraction="1" />
   </material>
 </pumas>

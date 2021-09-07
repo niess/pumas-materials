@@ -1,7 +1,7 @@
 <pumas>
   <element name="Nd" Z="60" A="144.242000" I="546.0" />
 
-  <material name="Neodymium" file="neodymium.txt" density="7.008">
+  <material name="Neodymium" file="neodymium.txt" density="7.008" I="546">
     <component name="Nd" fraction="1" />
   </material>
 </pumas>

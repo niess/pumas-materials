@@ -1,7 +1,7 @@
 <pumas>
   <element name="V" Z="23" A="50.941500" I="245.0" />
 
-  <material name="Vanadium" file="vanadium.txt" density="6.11">
+  <material name="Vanadium" file="vanadium.txt" density="6.11" I="245">
     <component name="V" fraction="1" />
   </material>
 </pumas>

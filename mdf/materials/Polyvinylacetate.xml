@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
-  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
+  <element name="O" Z="8"  A="15.999000" I="95.0"  />
 
-  <material name="Polyvinylacetate" file="polyvinylacetate.txt" density="1.19">
+  <material name="Polyvinylacetate" file="polyvinylacetate.txt" density="1.19" I="73.7">
+    <component name="H" fraction="0.070245" />
     <component name="C" fraction="0.558066" />
     <component name="O" fraction="0.371689" />
-    <component name="H" fraction="0.070245" />
   </material>
 </pumas>

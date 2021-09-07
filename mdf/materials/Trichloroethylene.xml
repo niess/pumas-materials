@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="Trichloroethylene" file="trichloroethylene.txt" density="1.46">
-    <component name="Cl" fraction="0.809498" />
-    <component name="C"  fraction="0.182831" />
+  <material name="Trichloroethylene" file="trichloroethylene.txt" density="1.46" I="148.1">
     <component name="H"  fraction="0.007671" />
+    <component name="C"  fraction="0.182831" />
+    <component name="Cl" fraction="0.809498" />
   </material>
 </pumas>

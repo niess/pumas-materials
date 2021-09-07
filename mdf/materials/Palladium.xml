@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Pd" Z="46" A="106.421000" I="470.0" />
+  <element name="Pd" Z="46" A="106.420000" I="470.0" />
 
-  <material name="Palladium" file="palladium.txt" density="12.02">
+  <material name="Palladium" file="palladium.txt" density="12.02" I="470">
     <component name="Pd" fraction="1" />
   </material>
 </pumas>

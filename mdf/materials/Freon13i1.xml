@@ -1,11 +1,11 @@
 <pumas>
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
   <element name="F" Z="9"  A="18.998400" I="115.0" />
   <element name="I" Z="53" A="126.904000" I="491.0" />
 
-  <material name="Freon13i1" file="freon_13i_1.txt" density="1.8">
-    <component name="I" fraction="0.647767" />
-    <component name="F" fraction="0.290924" />
+  <material name="Freon13i1" file="freon13i1.txt" density="1.8" I="293.5">
     <component name="C" fraction="0.061309" />
+    <component name="F" fraction="0.290924" />
+    <component name="I" fraction="0.647767" />
   </material>
 </pumas>

@@ -1,9 +1,9 @@
 <pumas>
   <element name="F"  Z="9"  A="18.998400" I="115.0" />
-  <element name="Pb" Z="82" A="207.210000" I="823.0" />
+  <element name="Pb" Z="82" A="207.200000" I="823.0" />
 
-  <material name="LeadFluoride" file="lead_fluoride.txt" density="7.77">
-    <component name="Pb" fraction="0.845035" />
+  <material name="LeadFluoride" file="lead_fluoride.txt" density="7.77" I="635.4">
     <component name="F"  fraction="0.154965" />
+    <component name="Pb" fraction="0.845035" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
 
-  <material name="HydrogenGas" file="hydrogen_gas.txt" density="8.376e-05">
+  <material name="HydrogenGas" file="hydrogen_gas.txt" density="8.376e-05" I="19.2">
     <component name="H" fraction="1" />
   </material>
 </pumas>

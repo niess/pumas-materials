@@ -1,9 +1,9 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Pb" Z="82" A="207.210000" I="823.0" />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Pb" Z="82" A="207.200000" I="823.0" />
 
-  <material name="LeadOxide" file="lead_oxide.txt" density="9.53">
-    <component name="Pb" fraction="0.928318" />
+  <material name="LeadOxide" file="lead_oxide.txt" density="9.53" I="766.7">
     <component name="O"  fraction="0.071682" />
+    <component name="Pb" fraction="0.928318" />
   </material>
 </pumas>

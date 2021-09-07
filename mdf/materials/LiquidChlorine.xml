@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="LiquidChlorine" file="liquid_chlorine.txt" density="1.574">
+  <material name="LiquidChlorine" file="liquid_chlorine.txt" density="1.574" I="174">
     <component name="Cl" fraction="1" />
   </material>
 </pumas>

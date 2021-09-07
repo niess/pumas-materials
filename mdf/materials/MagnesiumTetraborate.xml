@@ -1,11 +1,11 @@
 <pumas>
-  <element name="B"  Z="5"  A="10.817000" I="76.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+  <element name="B"  Z="5"  A="10.810000" I="76.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Mg" Z="12" A="24.305000" I="156.0" />
 
-  <material name="MagnesiumTetraborate" file="magnesium_tetraborate.txt" density="2.53">
-    <component name="O"  fraction="0.62379" />
+  <material name="MagnesiumTetraborate" file="magnesium_tetraborate.txt" density="2.53" I="108.3">
     <component name="B"  fraction="0.240837" />
+    <component name="O"  fraction="0.62379" />
     <component name="Mg" fraction="0.135373" />
   </material>
 </pumas>

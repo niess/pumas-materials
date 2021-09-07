@@ -1,7 +1,7 @@
 <pumas>
-  <element name="S" Z="16" A="32.065500" I="180.0" />
+  <element name="S" Z="16" A="32.065000" I="180.0" />
 
-  <material name="Sulfur" file="sulfur.txt" density="2">
+  <material name="Sulfur" file="sulfur.txt" density="2" I="180">
     <component name="S" fraction="1" />
   </material>
 </pumas>

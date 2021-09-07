@@ -1,7 +1,7 @@
 <pumas>
   <element name="I" Z="53" A="126.904000" I="491.0" />
 
-  <material name="Iodine" file="iodine.txt" density="4.93">
+  <material name="Iodine" file="iodine.txt" density="4.93" I="491">
     <component name="I" fraction="1" />
   </material>
 </pumas>

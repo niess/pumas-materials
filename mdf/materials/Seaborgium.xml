@@ -1,7 +1,7 @@
 <pumas>
   <element name="Sg" Z="106" A="269.129000" I="1074.0" />
 
-  <material name="Seaborgium" file="seaborgium.txt" density="14">
+  <material name="Seaborgium" file="seaborgium.txt" density="14" I="1074">
     <component name="Sg" fraction="1" />
   </material>
 </pumas>

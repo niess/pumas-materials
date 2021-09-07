@@ -1,9 +1,9 @@
 <pumas>
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
   <element name="La" Z="57" A="138.905000" I="501.0" />
 
-  <material name="LanthanumChloride" file="lanthanum_chloride.txt" density="3.86">
-    <component name="La" fraction="0.56635" />
+  <material name="LanthanumChloride" file="lanthanum_chloride.txt" density="3.86" I="329.5">
     <component name="Cl" fraction="0.43365" />
+    <component name="La" fraction="0.56635" />
   </material>
 </pumas>

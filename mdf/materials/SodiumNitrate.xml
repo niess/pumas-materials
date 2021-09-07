@@ -1,11 +1,11 @@
 <pumas>
-  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="N"  Z="7"  A="14.007000" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Na" Z="11" A="22.989800" I="149.0" />
 
-  <material name="SodiumNitrate" file="sodium_nitrate.txt" density="2.261">
+  <material name="SodiumNitrate" file="sodium_nitrate.txt" density="2.261" I="114.6">
+    <component name="N"  fraction="0.164795" />
     <component name="O"  fraction="0.56472" />
     <component name="Na" fraction="0.270485" />
-    <component name="N"  fraction="0.164795" />
   </material>
 </pumas>

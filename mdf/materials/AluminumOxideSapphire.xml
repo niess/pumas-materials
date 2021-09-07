@@ -1,9 +1,9 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Al" Z="13" A="26.981500" I="166.0" />
 
-  <material name="AluminumOxideSapphire" file="aluminum_oxide_sapphire.txt" density="3.97">
-    <component name="Al" fraction="0.529251" />
+  <material name="AluminumOxideSapphire" file="aluminum_oxide_sapphire.txt" density="3.97" I="145.2">
     <component name="O"  fraction="0.470749" />
+    <component name="Al" fraction="0.529251" />
   </material>
 </pumas>

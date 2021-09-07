@@ -1,7 +1,7 @@
 <pumas>
   <element name="Tm" Z="69" A="168.934000" I="674.0" />
 
-  <material name="Thulium" file="thulium.txt" density="9.321">
+  <material name="Thulium" file="thulium.txt" density="9.321" I="674">
     <component name="Tm" fraction="1" />
   </material>
 </pumas>

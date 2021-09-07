@@ -1,8 +1,8 @@
 <pumas>
-  <element name="Br" Z="35" A="79.904100" I="357.0" />
+  <element name="Br" Z="35" A="79.904000" I="357.0" />
   <element name="Y"  Z="39" A="88.905800" I="379.0" />
 
-  <material name="YttriumBromide" file="yttrium_bromide.txt" density="5.29">
+  <material name="YttriumBromide" file="yttrium_bromide.txt" density="5.29" I="410">
     <component name="Br" fraction="0.729455" />
     <component name="Y"  fraction="0.270545" />
   </material>

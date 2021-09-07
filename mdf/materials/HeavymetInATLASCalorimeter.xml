@@ -1,11 +1,11 @@
 <pumas>
   <element name="Ni" Z="28" A="58.693400" I="311.0" />
-  <element name="Cu" Z="29" A="63.546300" I="322.0" />
-  <element name="W"  Z="74" A="183.841000" I="727.0" />
+  <element name="Cu" Z="29" A="63.546000" I="322.0" />
+  <element name="W"  Z="74" A="183.840000" I="727.0" />
 
-  <material name="HeavymetInATLASCalorimeter" file="heavymet_in_a_t_l_a_s_calorimeter.txt" density="19.3">
-    <component name="W"  fraction="0.95" />
+  <material name="HeavymetInATLASCalorimeter" file="heavymet_in_atlas_calorimeter.txt" density="19.3" I="727">
     <component name="Ni" fraction="0.035" />
     <component name="Cu" fraction="0.015" />
+    <component name="W"  fraction="0.95" />
   </material>
 </pumas>

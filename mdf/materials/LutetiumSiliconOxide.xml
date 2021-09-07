@@ -1,11 +1,11 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Si" Z="14" A="28.085500" I="173.0" />
   <element name="Lu" Z="71" A="174.967000" I="694.0" />
 
-  <material name="LutetiumSiliconOxide" file="lutetium_silicon_oxide.txt" density="7.4">
-    <component name="Lu" fraction="0.76402" />
+  <material name="LutetiumSiliconOxide" file="lutetium_silicon_oxide.txt" density="7.4" I="472">
     <component name="O"  fraction="0.17466" />
     <component name="Si" fraction="0.06132" />
+    <component name="Lu" fraction="0.76402" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Gd" Z="64" A="157.253000" I="591.0" />
+  <element name="Gd" Z="64" A="157.250000" I="591.0" />
 
-  <material name="Gadolinium" file="gadolinium.txt" density="7.901">
+  <material name="Gadolinium" file="gadolinium.txt" density="7.901" I="591">
     <component name="Gd" fraction="1" />
   </material>
 </pumas>

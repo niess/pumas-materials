@@ -1,11 +1,11 @@
 <pumas>
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Ca" Z="20" A="40.078000" I="191.0" />
 
-  <material name="CalciumCarbonate" file="calcium_carbonate.txt" density="2.8">
+  <material name="CalciumCarbonate" file="calcium_carbonate.txt" density="2.8" I="136.4">
+    <component name="C"  fraction="0.120003" />
     <component name="O"  fraction="0.479554" />
     <component name="Ca" fraction="0.400443" />
-    <component name="C"  fraction="0.120003" />
   </material>
 </pumas>

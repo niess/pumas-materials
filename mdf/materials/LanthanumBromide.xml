@@ -1,8 +1,8 @@
 <pumas>
-  <element name="Br" Z="35" A="79.904100" I="357.0" />
+  <element name="Br" Z="35" A="79.904000" I="357.0" />
   <element name="La" Z="57" A="138.905000" I="501.0" />
 
-  <material name="LanthanumBromide" file="lanthanum_bromide.txt" density="5.29">
+  <material name="LanthanumBromide" file="lanthanum_bromide.txt" density="5.29" I="454.5">
     <component name="Br" fraction="0.633124" />
     <component name="La" fraction="0.366875" />
   </material>

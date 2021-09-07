@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Sm" Z="62" A="150.362000" I="574.0" />
+  <element name="Sm" Z="62" A="150.360000" I="574.0" />
 
-  <material name="Samarium" file="samarium.txt" density="7.52">
+  <material name="Samarium" file="samarium.txt" density="7.52" I="574">
     <component name="Sm" fraction="1" />
   </material>
 </pumas>

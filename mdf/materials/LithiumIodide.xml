@@ -1,9 +1,9 @@
 <pumas>
-  <element name="Li" Z="3"  A="6.942000"  I="40.0"  />
+  <element name="Li" Z="3"  A="6.940000"  I="40.0"  />
   <element name="I"  Z="53" A="126.904000" I="491.0" />
 
-  <material name="LithiumIodide" file="lithium_iodide.txt" density="3.494">
-    <component name="I"  fraction="0.948142" />
+  <material name="LithiumIodide" file="lithium_iodide.txt" density="3.494" I="485.1">
     <component name="Li" fraction="0.051858" />
+    <component name="I"  fraction="0.948142" />
   </material>
 </pumas>

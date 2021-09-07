@@ -1,9 +1,9 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
 
-  <material name="LiquidPropane" file="liquid_propane.txt" density="0.493">
-    <component name="C" fraction="0.817145" />
+  <material name="LiquidPropane" file="liquid_propane.txt" density="0.493" I="52">
     <component name="H" fraction="0.182855" />
+    <component name="C" fraction="0.817145" />
   </material>
 </pumas>

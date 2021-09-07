@@ -1,9 +1,9 @@
 <pumas>
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="Tetrachloroethylene" file="tetrachloroethylene.txt" density="1.625">
-    <component name="Cl" fraction="0.855144" />
+  <material name="Tetrachloroethylene" file="tetrachloroethylene.txt" density="1.625" I="159.2">
     <component name="C"  fraction="0.144856" />
+    <component name="Cl" fraction="0.855144" />
   </material>
 </pumas>

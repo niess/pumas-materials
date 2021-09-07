@@ -1,7 +1,7 @@
 <pumas>
   <element name="U" Z="92" A="238.029000" I="890.0" />
 
-  <material name="Uranium" file="uranium.txt" density="18.95">
+  <material name="Uranium" file="uranium.txt" density="18.95" I="890">
     <component name="U" fraction="1" />
   </material>
 </pumas>

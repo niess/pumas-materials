@@ -1,7 +1,7 @@
 <pumas>
   <element name="Dy" Z="66" A="162.500000" I="628.0" />
 
-  <material name="Dysprosium" file="dysprosium.txt" density="8.551">
+  <material name="Dysprosium" file="dysprosium.txt" density="8.551" I="628">
     <component name="Dy" fraction="1" />
   </material>
 </pumas>

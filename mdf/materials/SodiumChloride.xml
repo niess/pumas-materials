@@ -1,9 +1,9 @@
 <pumas>
   <element name="Na" Z="11" A="22.989800" I="149.0" />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="SodiumChloride" file="sodium_chloride.txt" density="2.17">
-    <component name="Cl" fraction="0.606626" />
+  <material name="SodiumChloride" file="sodium_chloride.txt" density="2.17" I="175.3">
     <component name="Na" fraction="0.393375" />
+    <component name="Cl" fraction="0.606626" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="Tc" Z="43" A="97.907200" I="428.0" />
 
-  <material name="Technetium" file="technetium.txt" density="11.5">
+  <material name="Technetium" file="technetium.txt" density="11.5" I="428">
     <component name="Tc" fraction="1" />
   </material>
 </pumas>

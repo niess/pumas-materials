@@ -1,9 +1,9 @@
 <pumas>
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
   <element name="F" Z="9"  A="18.998400" I="115.0" />
 
-  <material name="CarbonTetrafluoride" file="carbon_tetrafluoride.txt" density="0.00378">
-    <component name="F" fraction="0.86345" />
+  <material name="CarbonTetrafluoride" file="carbon_tetrafluoride.txt" density="0.00378" I="115">
     <component name="C" fraction="0.136548" />
+    <component name="F" fraction="0.86345" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="Sb" Z="51" A="121.760000" I="487.0" />
 
-  <material name="Antimony" file="antimony.txt" density="6.691">
+  <material name="Antimony" file="antimony.txt" density="6.691" I="487">
     <component name="Sb" fraction="1" />
   </material>
 </pumas>

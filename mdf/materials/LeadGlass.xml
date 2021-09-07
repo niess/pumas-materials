@@ -1,15 +1,15 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Si" Z="14" A="28.085500" I="173.0" />
-  <element name="Ti" Z="22" A="47.867100" I="233.0" />
+  <element name="Ti" Z="22" A="47.867000" I="233.0" />
   <element name="As" Z="33" A="74.921600" I="347.0" />
-  <element name="Pb" Z="82" A="207.210000" I="823.0" />
+  <element name="Pb" Z="82" A="207.200000" I="823.0" />
 
-  <material name="LeadGlass" file="lead_glass.txt" density="6.22">
-    <component name="Pb" fraction="0.751938" />
+  <material name="LeadGlass" file="lead_glass.txt" density="6.22" I="526.4">
     <component name="O"  fraction="0.156453" />
     <component name="Si" fraction="0.080866" />
     <component name="Ti" fraction="0.008092" />
     <component name="As" fraction="0.002651" />
+    <component name="Pb" fraction="0.751938" />
   </material>
 </pumas>

@@ -1,9 +1,9 @@
 <pumas>
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
   <element name="U" Z="92" A="238.029000" I="890.0" />
 
-  <material name="UraniumMonocarbide" file="uranium_monocarbide.txt" density="13.63">
-    <component name="U" fraction="0.951964" />
+  <material name="UraniumMonocarbide" file="uranium_monocarbide.txt" density="13.63" I="862">
     <component name="C" fraction="0.048036" />
+    <component name="U" fraction="0.951964" />
   </material>
 </pumas>

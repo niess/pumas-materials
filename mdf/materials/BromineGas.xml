@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Br" Z="35" A="79.904100" I="357.0" />
+  <element name="Br" Z="35" A="79.904000" I="357.0" />
 
-  <material name="BromineGas" file="bromine_gas.txt" density="0.007072">
+  <material name="BromineGas" file="bromine_gas.txt" density="0.007072" I="343">
     <component name="Br" fraction="1" />
   </material>
 </pumas>

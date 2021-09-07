@@ -1,11 +1,11 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Cd" Z="48" A="112.414000" I="469.0" />
-  <element name="W"  Z="74" A="183.841000" I="727.0" />
+  <element name="W"  Z="74" A="183.840000" I="727.0" />
 
-  <material name="CadmiumTungstate" file="cadmium_tungstate.txt" density="7.9">
-    <component name="W"  fraction="0.510329" />
-    <component name="Cd" fraction="0.312027" />
+  <material name="CadmiumTungstate" file="cadmium_tungstate.txt" density="7.9" I="468.3">
     <component name="O"  fraction="0.177644" />
+    <component name="Cd" fraction="0.312027" />
+    <component name="W"  fraction="0.510329" />
   </material>
 </pumas>

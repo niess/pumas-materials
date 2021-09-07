@@ -1,13 +1,13 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
-  <element name="N" Z="7"  A="14.007200" I="82.0"  />
-  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
+  <element name="N" Z="7"  A="14.007000" I="82.0"  />
+  <element name="O" Z="8"  A="15.999000" I="95.0"  />
 
-  <material name="Glutamine" file="glutamine.txt" density="1.46">
-    <component name="C" fraction="0.410926" />
-    <component name="O" fraction="0.328427" />
-    <component name="N" fraction="0.191681" />
+  <material name="Glutamine" file="glutamine.txt" density="1.46" I="73.3">
     <component name="H" fraction="0.068965" />
+    <component name="C" fraction="0.410926" />
+    <component name="N" fraction="0.191681" />
+    <component name="O" fraction="0.328427" />
   </material>
 </pumas>

@@ -1,9 +1,9 @@
 <pumas>
-  <element name="B" Z="5"  A="10.817000" I="76.0"  />
-  <element name="O" Z="8"  A="15.999300" I="95.0"  />
+  <element name="B" Z="5"  A="10.810000" I="76.0"  />
+  <element name="O" Z="8"  A="15.999000" I="95.0"  />
 
-  <material name="BoronOxide" file="boron_oxide.txt" density="1.812">
-    <component name="O" fraction="0.689449" />
+  <material name="BoronOxide" file="boron_oxide.txt" density="1.812" I="99.6">
     <component name="B" fraction="0.310551" />
+    <component name="O" fraction="0.689449" />
   </material>
 </pumas>

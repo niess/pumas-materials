@@ -1,7 +1,7 @@
 <pumas>
   <element name="Mn" Z="25" A="54.938000" I="272.0" />
 
-  <material name="Manganese" file="manganese.txt" density="7.44">
+  <material name="Manganese" file="manganese.txt" density="7.44" I="272">
     <component name="Mn" fraction="1" />
   </material>
 </pumas>

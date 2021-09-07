@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Cu" Z="29" A="63.546300" I="322.0" />
+  <element name="Cu" Z="29" A="63.546000" I="322.0" />
 
-  <material name="Copper" file="copper.txt" density="8.96">
+  <material name="Copper" file="copper.txt" density="8.96" I="322">
     <component name="Cu" fraction="1" />
   </material>
 </pumas>

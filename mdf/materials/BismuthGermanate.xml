@@ -1,11 +1,11 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Ge" Z="32" A="72.630100" I="350.0" />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Ge" Z="32" A="72.630000" I="350.0" />
   <element name="Bi" Z="83" A="208.980000" I="823.0" />
 
-  <material name="BismuthGermanate" file="bismuth_germanate.txt" density="7.13">
-    <component name="Bi" fraction="0.671054" />
-    <component name="Ge" fraction="0.17482" />
+  <material name="BismuthGermanate" file="bismuth_germanate.txt" density="7.13" I="534.1">
     <component name="O"  fraction="0.154126" />
+    <component name="Ge" fraction="0.17482" />
+    <component name="Bi" fraction="0.671054" />
   </material>
 </pumas>

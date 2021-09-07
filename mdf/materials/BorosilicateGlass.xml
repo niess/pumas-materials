@@ -1,17 +1,17 @@
 <pumas>
-  <element name="B"  Z="5"  A="10.817000" I="76.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="B"  Z="5"  A="10.810000" I="76.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Na" Z="11" A="22.989800" I="149.0" />
   <element name="Al" Z="13" A="26.981500" I="166.0" />
   <element name="Si" Z="14" A="28.085500" I="173.0" />
   <element name="K"  Z="19" A="39.098300" I="190.0" />
 
-  <material name="BorosilicateGlass" file="borosilicate_glass.txt" density="2.23">
-    <component name="O"  fraction="0.539564" />
-    <component name="Si" fraction="0.37722" />
+  <material name="BorosilicateGlass" file="borosilicate_glass.txt" density="2.23" I="134">
     <component name="B"  fraction="0.040061" />
+    <component name="O"  fraction="0.539564" />
     <component name="Na" fraction="0.028191" />
     <component name="Al" fraction="0.011644" />
+    <component name="Si" fraction="0.37722" />
     <component name="K"  fraction="0.003321" />
   </material>
 </pumas>

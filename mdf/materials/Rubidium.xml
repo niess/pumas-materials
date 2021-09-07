@@ -1,7 +1,7 @@
 <pumas>
   <element name="Rb" Z="37" A="85.467800" I="363.0" />
 
-  <material name="Rubidium" file="rubidium.txt" density="1.532">
+  <material name="Rubidium" file="rubidium.txt" density="1.532" I="363">
     <component name="Rb" fraction="1" />
   </material>
 </pumas>

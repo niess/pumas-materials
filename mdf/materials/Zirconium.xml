@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Zr" Z="40" A="91.224200" I="393.0" />
+  <element name="Zr" Z="40" A="91.224000" I="393.0" />
 
-  <material name="Zirconium" file="zirconium.txt" density="6.506">
+  <material name="Zirconium" file="zirconium.txt" density="6.506" I="393">
     <component name="Zr" fraction="1" />
   </material>
 </pumas>

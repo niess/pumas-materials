@@ -1,9 +1,9 @@
 <pumas>
   <element name="F"  Z="9"  A="18.998400" I="115.0" />
-  <element name="Ca" Z="20" A="40.078400" I="191.0" />
+  <element name="Ca" Z="20" A="40.078000" I="191.0" />
 
-  <material name="CalciumFluoride" file="calcium_fluoride.txt" density="3.18">
-    <component name="Ca" fraction="0.513341" />
+  <material name="CalciumFluoride" file="calcium_fluoride.txt" density="3.18" I="166">
     <component name="F"  fraction="0.486659" />
+    <component name="Ca" fraction="0.513341" />
   </material>
 </pumas>

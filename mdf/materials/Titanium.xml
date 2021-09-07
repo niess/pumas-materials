@@ -1,7 +1,7 @@
 <pumas>
-  <element name="Ti" Z="22" A="47.867100" I="233.0" />
+  <element name="Ti" Z="22" A="47.867000" I="233.0" />
 
-  <material name="Titanium" file="titanium.txt" density="4.54">
+  <material name="Titanium" file="titanium.txt" density="4.54" I="233">
     <component name="Ti" fraction="1" />
   </material>
 </pumas>

@@ -1,7 +1,7 @@
 <pumas>
   <element name="No" Z="102" A="259.101000" I="1020.0" />
 
-  <material name="Nobelium" file="nobelium.txt" density="14">
+  <material name="Nobelium" file="nobelium.txt" density="14" I="1020">
     <component name="No" fraction="1" />
   </material>
 </pumas>

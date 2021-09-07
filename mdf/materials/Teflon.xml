@@ -1,9 +1,9 @@
 <pumas>
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
   <element name="F" Z="9"  A="18.998400" I="115.0" />
 
-  <material name="Teflon" file="teflon.txt" density="2.2">
-    <component name="F" fraction="0.759817" />
+  <material name="Teflon" file="teflon.txt" density="2.2" I="99.1">
     <component name="C" fraction="0.240183" />
+    <component name="F" fraction="0.759817" />
   </material>
 </pumas>

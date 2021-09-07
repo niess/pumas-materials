@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H" Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C" Z="6"  A="12.010800" I="78.0"  />
-  <element name="N" Z="7"  A="14.007200" I="82.0"  />
+  <element name="H" Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C" Z="6"  A="12.010700" I="78.0"  />
+  <element name="N" Z="7"  A="14.007000" I="82.0"  />
 
-  <material name="Polyacrylonitrile" file="polyacrylonitrile.txt" density="1.17">
+  <material name="Polyacrylonitrile" file="polyacrylonitrile.txt" density="1.17" I="69.6">
+    <component name="H" fraction="0.056983" />
     <component name="C" fraction="0.679056" />
     <component name="N" fraction="0.263962" />
-    <component name="H" fraction="0.056983" />
   </material>
 </pumas>

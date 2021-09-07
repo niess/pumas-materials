@@ -1,7 +1,7 @@
 <pumas>
-  <element name="B" Z="5"  A="10.817000" I="76.0"  />
+  <element name="B" Z="5"  A="10.810000" I="76.0"  />
 
-  <material name="Boron" file="boron.txt" density="2.37">
+  <material name="Boron" file="boron.txt" density="2.37" I="76">
     <component name="B" fraction="1" />
   </material>
 </pumas>

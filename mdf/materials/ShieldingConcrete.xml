@@ -1,25 +1,25 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Na" Z="11" A="22.989800" I="149.0" />
-  <element name="Mg" Z="12" A="24.305600" I="156.0" />
+  <element name="Mg" Z="12" A="24.305000" I="156.0" />
   <element name="Al" Z="13" A="26.981500" I="166.0" />
   <element name="Si" Z="14" A="28.085500" I="173.0" />
   <element name="K"  Z="19" A="39.098300" I="190.0" />
-  <element name="Ca" Z="20" A="40.078400" I="191.0" />
-  <element name="Fe" Z="26" A="55.845200" I="286.0" />
+  <element name="Ca" Z="20" A="40.078000" I="191.0" />
+  <element name="Fe" Z="26" A="55.845000" I="286.0" />
 
-  <material name="ShieldingConcrete" file="shielding_concrete.txt" density="2.3">
-    <component name="O"  fraction="0.529107" />
-    <component name="Si" fraction="0.337021" />
-    <component name="Ca" fraction="0.044" />
-    <component name="Al" fraction="0.033872" />
-    <component name="Na" fraction="0.016" />
-    <component name="Fe" fraction="0.014" />
-    <component name="K"  fraction="0.013" />
+  <material name="ShieldingConcrete" file="shielding_concrete.txt" density="2.3" I="135.2">
     <component name="H"  fraction="0.01" />
-    <component name="Mg" fraction="0.002" />
     <component name="C"  fraction="0.001" />
+    <component name="O"  fraction="0.529107" />
+    <component name="Na" fraction="0.016" />
+    <component name="Mg" fraction="0.002" />
+    <component name="Al" fraction="0.033872" />
+    <component name="Si" fraction="0.337021" />
+    <component name="K"  fraction="0.013" />
+    <component name="Ca" fraction="0.044" />
+    <component name="Fe" fraction="0.014" />
   </material>
 </pumas>

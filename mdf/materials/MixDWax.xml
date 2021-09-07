@@ -1,15 +1,15 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Mg" Z="12" A="24.305600" I="156.0" />
-  <element name="Ti" Z="22" A="47.867100" I="233.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Mg" Z="12" A="24.305000" I="156.0" />
+  <element name="Ti" Z="22" A="47.867000" I="233.0" />
 
-  <material name="MixDWax" file="mix_d_wax.txt" density="0.99">
-    <component name="C"  fraction="0.77796" />
+  <material name="MixDWax" file="mix_d_wax.txt" density="0.99" I="60.9">
     <component name="H"  fraction="0.13404" />
-    <component name="Mg" fraction="0.038594" />
+    <component name="C"  fraction="0.77796" />
     <component name="O"  fraction="0.03502" />
+    <component name="Mg" fraction="0.038594" />
     <component name="Ti" fraction="0.014386" />
   </material>
 </pumas>

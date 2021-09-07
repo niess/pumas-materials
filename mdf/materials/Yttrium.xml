@@ -1,7 +1,7 @@
 <pumas>
   <element name="Y" Z="39" A="88.905800" I="379.0" />
 
-  <material name="Yttrium" file="yttrium.txt" density="4.469">
+  <material name="Yttrium" file="yttrium.txt" density="4.469" I="379">
     <component name="Y" fraction="1" />
   </material>
 </pumas>

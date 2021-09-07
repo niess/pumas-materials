@@ -1,11 +1,11 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="C"  Z="6"  A="12.010800" I="78.0"  />
-  <element name="Cl" Z="17" A="35.453200" I="174.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="C"  Z="6"  A="12.010700" I="78.0"  />
+  <element name="Cl" Z="17" A="35.453000" I="174.0" />
 
-  <material name="Chlorobenzene" file="chlorobenzene.txt" density="1.106">
+  <material name="Chlorobenzene" file="chlorobenzene.txt" density="1.106" I="89.1">
+    <component name="H"  fraction="0.044772" />
     <component name="C"  fraction="0.640254" />
     <component name="Cl" fraction="0.314974" />
-    <component name="H"  fraction="0.044772" />
   </material>
 </pumas>

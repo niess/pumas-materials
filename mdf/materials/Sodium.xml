@@ -1,7 +1,7 @@
 <pumas>
   <element name="Na" Z="11" A="22.989800" I="149.0" />
 
-  <material name="Sodium" file="sodium.txt" density="0.971">
+  <material name="Sodium" file="sodium.txt" density="0.971" I="149">
     <component name="Na" fraction="1" />
   </material>
 </pumas>

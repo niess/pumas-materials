@@ -1,9 +1,9 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="Fe" Z="26" A="55.845200" I="286.0" />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="Fe" Z="26" A="55.845000" I="286.0" />
 
-  <material name="FerrousOxide" file="ferrous_oxide.txt" density="5.7">
-    <component name="Fe" fraction="0.777311" />
+  <material name="FerrousOxide" file="ferrous_oxide.txt" density="5.7" I="248.6">
     <component name="O"  fraction="0.222689" />
+    <component name="Fe" fraction="0.777311" />
   </material>
 </pumas>

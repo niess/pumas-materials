@@ -1,9 +1,9 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Na" Z="11" A="22.989800" I="149.0" />
 
-  <material name="SodiumMonoxide" file="sodium_monoxide.txt" density="2.27">
-    <component name="Na" fraction="0.741857" />
+  <material name="SodiumMonoxide" file="sodium_monoxide.txt" density="2.27" I="148.8">
     <component name="O"  fraction="0.258143" />
+    <component name="Na" fraction="0.741857" />
   </material>
 </pumas>

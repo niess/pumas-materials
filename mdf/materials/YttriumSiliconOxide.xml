@@ -1,11 +1,11 @@
 <pumas>
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
   <element name="Si" Z="14" A="28.085500" I="173.0" />
   <element name="Y"  Z="39" A="88.905800" I="379.0" />
 
-  <material name="YttriumSiliconOxide" file="yttrium_silicon_oxide.txt" density="4.54">
-    <component name="Y"  fraction="0.621949" />
+  <material name="YttriumSiliconOxide" file="yttrium_silicon_oxide.txt" density="4.54" I="258.1">
     <component name="O"  fraction="0.279813" />
     <component name="Si" fraction="0.098237" />
+    <component name="Y"  fraction="0.621949" />
   </material>
 </pumas>

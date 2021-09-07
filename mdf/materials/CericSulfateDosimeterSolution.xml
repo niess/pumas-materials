@@ -1,15 +1,15 @@
 <pumas>
-  <element name="H"  Z="1"  A="1.008700"  I="19.2"  />
-  <element name="N"  Z="7"  A="14.007200" I="82.0"  />
-  <element name="O"  Z="8"  A="15.999300" I="95.0"  />
-  <element name="S"  Z="16" A="32.065500" I="180.0" />
+  <element name="H"  Z="1"  A="1.008000"  I="19.2"  />
+  <element name="N"  Z="7"  A="14.007000" I="82.0"  />
+  <element name="O"  Z="8"  A="15.999000" I="95.0"  />
+  <element name="S"  Z="16" A="32.065000" I="180.0" />
   <element name="Ce" Z="58" A="140.116000" I="523.0" />
 
-  <material name="CericSulfateDosimeterSolution" file="ceric_sulfate_dosimeter_solution.txt" density="1.03">
-    <component name="O"  fraction="0.874976" />
+  <material name="CericSulfateDosimeterSolution" file="ceric_sulfate_dosimeter_solution.txt" density="1.03" I="76.7">
     <component name="H"  fraction="0.107596" />
+    <component name="N"  fraction="0.0008" />
+    <component name="O"  fraction="0.874976" />
     <component name="S"  fraction="0.014627" />
     <component name="Ce" fraction="0.002001" />
-    <component name="N"  fraction="0.0008" />
   </material>
 </pumas>

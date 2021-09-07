@@ -1,7 +1,7 @@
 <pumas>
   <element name="Mc" Z="115" A="289.194000" I="1199.0" />
 
-  <material name="Moscovium" file="moscovium.txt" density="14">
+  <material name="Moscovium" file="moscovium.txt" density="14" I="1199">
     <component name="Mc" fraction="1" />
   </material>
 </pumas>
