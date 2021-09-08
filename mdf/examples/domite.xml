@@ -37,19 +37,19 @@
   </material>
 
   <!-- Potassium oxide (K2O) -->
-  <material name="PotassiumOxide" file="potassium_oxide.txt" density="2.32">
+  <material name="PotassiumOxide" density="2.32">
     <component name="K" fraction="0.830148" />
     <component name="O" fraction="0.169852" />
   </material>
 
   <!-- Sodium monoxide (Na2O) -->
-  <material name="SodiumMonoxide" file="sodium_monoxide.txt" density="2.27">
+  <material name="SodiumMonoxide" density="2.27">
     <component name="Na" fraction="0.741857" />
     <component name="O"  fraction="0.258143" />
   </material>
 
   <!-- Liquid water -->
-  <material name="Water" file="water.txt" density="1" I="79.7">
+  <material name="Water" density="1" I="79.7">
     <component name="O" fraction="0.888106" />
     <component name="H" fraction="0.111894" />
   </material>
